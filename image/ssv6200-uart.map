@@ -1,0 +1,1917 @@
+Archive member included because of file (symbol)
+
+/mnt/hgfs/svn_code/new/firmware/104x/smartcfg/libairkiss.a(airkiss.o)
+                              ./apps/mac80211/soc_obj/SmartConfig.o (airkiss_version)
+/opt/toolchain/gcc-arm-none-eabi-4_6-2012q1/bin/../lib/gcc/arm-none-eabi/4.6.2/libgcc.a(_udivsi3.o)
+                              ./apps/mac80211/soc_obj/util.o (__aeabi_uidiv)
+/opt/toolchain/gcc-arm-none-eabi-4_6-2012q1/bin/../lib/gcc/arm-none-eabi/4.6.2/libgcc.a(_divsi3.o)
+                              ./apps/mac80211/soc_obj/mlme.o (__aeabi_idiv)
+/opt/toolchain/gcc-arm-none-eabi-4_6-2012q1/bin/../lib/gcc/arm-none-eabi/4.6.2/libgcc.a(_dvmd_tls.o)
+                              /opt/toolchain/gcc-arm-none-eabi-4_6-2012q1/bin/../lib/gcc/arm-none-eabi/4.6.2/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+/opt/toolchain/gcc-arm-none-eabi-4_6-2012q1/bin/../lib/gcc/arm-none-eabi/4.6.2/libgcc.a(_arm_addsubdf3.o)
+                              ./apps/mac80211/soc_obj/MLME_PwrSaving.o (__aeabi_dadd)
+/opt/toolchain/gcc-arm-none-eabi-4_6-2012q1/bin/../lib/gcc/arm-none-eabi/4.6.2/libgcc.a(_arm_muldivdf3.o)
+                              ./apps/mac80211/soc_obj/MLME_PwrSaving.o (__aeabi_dmul)
+/opt/toolchain/gcc-arm-none-eabi-4_6-2012q1/bin/../lib/gcc/arm-none-eabi/4.6.2/libgcc.a(_arm_fixunsdfsi.o)
+                              ./apps/mac80211/soc_obj/MLME_PwrSaving.o (__aeabi_d2uiz)
+/opt/toolchain/gcc-arm-none-eabi-4_6-2012q1/bin/../lib/gcc/arm-none-eabi/4.6.2/libgcc.a(_muldi3.o)
+                              ./driver/phy/soc_obj/drv_phy.o (__aeabi_lmul)
+
+Allocating common symbols
+Common symbol       size              file
+
+current_bcn         0x4               ./apps/mac80211/soc_obj/mlme.o
+g_bcn_info          0xc               ./apps/mac80211/soc_obj/cmd_engine.o
+g_heap_start        0x4               ./bsp/soc_obj/bsp.o
+msgevt_addr_end     0x4               ./apps/soc_obj/msgevt.o
+phy_cali_config_papd
+                    0x18              ./apps/mac80211/supplicant/common/soc_obj/wpa_common.o
+firmware_rf_temper_setting
+                    0x50              ./driver/phy/soc_obj/drv_phy.o
+mlme_cmd_seq_no     0x4               ./apps/mac80211/soc_obj/MLME_Task.o
+g_free_msgevt_cnt   0x4               ./apps/soc_obj/soc_global.o
+probe_pkt           0xc               ./apps/mac80211/soc_obj/pide_algo.o
+g_heap_size         0x4               ./bsp/soc_obj/bsp.o
+gCmdHistoryIdx      0x1               ./apps/mac80211/supplicant/common/soc_obj/wpa_common.o
+sreq                0x6               ./apps/mac80211/soc_obj/SmartConfig.o
+g_log_mutex         0x4               ./apps/mac80211/supplicant/common/soc_obj/wpa_common.o
+g_drv_bcn_info      0x4               ./driver/beacon/soc_obj/drv_beacon.o
+_g_heap_start       0x4               ./bsp/soc_obj/bsp.o
+assoc_req_rate      0xc               ./apps/soc_obj/soc_global.o
+g_soc_table         0x4               ./apps/soc_obj/soc_global.o
+gOsFromISR          0x1               ./rtos/soc_obj/rtos.o
+gTxFlowDataReason   0x4               ./apps/soc_obj/soc_global.o
+self_bcn_st         0x1               ./apps/mac80211/soc_obj/cmd_engine.o
+gCmdHistoryBuffer   0x195             ./apps/mac80211/supplicant/common/soc_obj/wpa_common.o
+sg_soc_evt_seq_no   0x4               ./apps/mac80211/soc_obj/cmd_engine.o
+my_result           0x14              ./apps/mac80211/soc_obj/SmartConfig.o
+g_soc_mib           0x1c              ./apps/soc_obj/soc_global.o
+xCurrentTick        0x4               ./bsp/soc_obj/irq.o
+gEDCAInfo           0x4               ./apps/mac80211/soc_obj/edca.o
+staInfoMutex        0x4               ./apps/mac80211/soc_obj/sta_info.o
+gRxFlowMgmtReason   0x2               ./apps/soc_obj/soc_global.o
+EN_RX_DATA_QUEUE_ID
+                    0x1               ./apps/mac80211/supplicant/common/soc_obj/wpa_common.o
+s_prn_tmp           0x100             ./apps/soc_obj/soc_log.o
+recover_timer       0x4               ./apps/mac80211/soc_obj/cmd_engine.o
+s_tag_lvl           0x10              ./apps/soc_obj/soc_log.o
+gTxFlowMgmtReason   0x2               ./apps/soc_obj/soc_global.o
+STRUCT_PACKED       0x4               ./apps/mac80211/soc_obj/cmd_engine.o
+s_prn_buf           0x100             ./apps/soc_obj/soc_log.o
+ap_calc_pmk_data    0x8               ./apps/mac80211/soc_obj/cmd_engine.o
+last_tx_rx_time     0x8               ./driver/hwmac/soc_obj/drv_mac.o
+g_log_out           0x108             ./apps/soc_obj/soc_log.o
+msgevt_addr_beg     0x4               ./apps/soc_obj/msgevt.o
+wpa_supplicant_event
+                    0x4               ./apps/mac80211/supplicant/soc_obj/wpa_supplicant.o
+EN_TX_DATA_QUEUE_ID
+                    0x1               ./apps/mac80211/supplicant/common/soc_obj/wpa_common.o
+null_data_status    0x4               ./apps/mac80211/soc_obj/cmd_engine.o
+timeout             0x28              ./apps/mac80211/supplicant/utils/soc_obj/eloop_rtos.o
+ampdu_tx_retry_count
+                    0x20              ./driver/ampdu/soc_obj/drv_ampdu.o
+gRxFlowDataReason   0x4               ./apps/soc_obj/soc_global.o
+dp                  0x4d8             ./lib/soc_obj/ssv_lib.o
+g_dbg_mutex         0x4               ./apps/mac80211/supplicant/common/soc_obj/wpa_common.o
+fdq_head            0x20              ./lib/soc_obj/ssv_lib.o
+last_bcn            0x4               ./apps/mac80211/soc_obj/mlme.o
+s_tag_mod           0x10              ./apps/soc_obj/soc_log.o
+debug_buffer        0x400             ./apps/soc_obj/app_main.o
+s_tag_fl            0x10              ./apps/soc_obj/soc_log.o
+tx_dq_head          0x60              ./lib/soc_obj/ssv_lib.o
+_g_heap_size        0x4               ./bsp/soc_obj/bsp.o
+g_log_prnf_cfg      0x1c              ./apps/soc_obj/soc_log.o
+pGSRAM_KEY          0x4               ./driver/security/soc_obj/drv_security.o
+rx_dq_head          0x20              ./lib/soc_obj/ssv_lib.o
+gCmdHistoryCnt      0x1               ./apps/mac80211/supplicant/common/soc_obj/wpa_common.o
+gRxFlowCtrlReason   0x2               ./apps/soc_obj/soc_global.o
+g_smtcfg            0xe8              ./apps/mac80211/soc_obj/SmartConfig.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ram              0x00000000         0x00030000
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./version.o
+LOAD ./apps/mac80211/supplicant/common/soc_obj/wpa_common.o
+LOAD ./apps/mac80211/supplicant/common/soc_obj/defs.o
+LOAD ./apps/mac80211/supplicant/crypto/soc_obj/aes-internal.o
+LOAD ./apps/mac80211/supplicant/crypto/soc_obj/aes-internal-dec.o
+LOAD ./apps/mac80211/supplicant/crypto/soc_obj/aes-internal-enc.o
+LOAD ./apps/mac80211/supplicant/crypto/soc_obj/aes-unwrap.o
+LOAD ./apps/mac80211/supplicant/crypto/soc_obj/crypto_internal.o
+LOAD ./apps/mac80211/supplicant/crypto/soc_obj/md5.o
+LOAD ./apps/mac80211/supplicant/crypto/soc_obj/md5-internal.o
+LOAD ./apps/mac80211/supplicant/crypto/soc_obj/rc4.o
+LOAD ./apps/mac80211/supplicant/crypto/soc_obj/sha1.o
+LOAD ./apps/mac80211/supplicant/crypto/soc_obj/sha1-internal.o
+LOAD ./apps/mac80211/supplicant/crypto/soc_obj/sha1-pbkdf2.o
+LOAD ./apps/mac80211/supplicant/drivers/soc_obj/driver_cabrio.o
+LOAD ./apps/mac80211/supplicant/rsn_supp/soc_obj/wpa.o
+LOAD ./apps/mac80211/supplicant/rsn_supp/soc_obj/wpa_ie.o
+LOAD ./apps/mac80211/supplicant/utils/soc_obj/common.o
+LOAD ./apps/mac80211/supplicant/utils/soc_obj/eloop_rtos.o
+LOAD ./apps/mac80211/supplicant/utils/soc_obj/os_rtos.o
+LOAD ./apps/mac80211/supplicant/utils/soc_obj/wpa_debug.o
+LOAD ./apps/mac80211/supplicant/soc_obj/events.o
+LOAD ./apps/mac80211/supplicant/soc_obj/wpa_supplicant.o
+LOAD ./apps/mac80211/supplicant/soc_obj/wpas_glue.o
+LOAD ./apps/mac80211/soc_obj/cmd_engine.o
+LOAD ./apps/mac80211/soc_obj/soft-main.o
+LOAD ./apps/mac80211/soc_obj/sta_info.o
+LOAD ./apps/mac80211/soc_obj/util.o
+LOAD ./apps/mac80211/soc_obj/SmartConfig.o
+LOAD ./apps/mac80211/soc_obj/mlme.o
+LOAD ./apps/mac80211/soc_obj/MLME_Task.o
+LOAD ./apps/mac80211/soc_obj/MLME_Scan.o
+LOAD ./apps/mac80211/soc_obj/MLME_Join.o
+LOAD ./apps/mac80211/soc_obj/MLME_Leave.o
+LOAD ./apps/mac80211/soc_obj/edca.o
+LOAD ./apps/mac80211/soc_obj/MLME_PwrSaving.o
+LOAD ./apps/mac80211/soc_obj/edca_queue.o
+LOAD ./apps/mac80211/soc_obj/pide_algo.o
+LOAD ./apps/mac80211/soc_obj/psk_cache.o
+LOAD ./apps/mac80211/soc_obj/ssv_pkt.o
+LOAD ./apps/soc_obj/app_main.o
+LOAD ./apps/soc_obj/msgevt.o
+LOAD ./apps/soc_obj/pbuf.o
+LOAD ./apps/soc_obj/soc_global.o
+LOAD ./apps/soc_obj/soc_log.o
+LOAD ./bsp/soc_obj/boot.o
+LOAD ./bsp/soc_obj/bsp.o
+LOAD ./bsp/soc_obj/cpu.o
+LOAD ./bsp/soc_obj/irq.o
+LOAD ./bsp/soc_obj/serial.o
+LOAD ./cli/cmds/soc_obj/cli_cmd.o
+LOAD ./cli/cmds/soc_obj/cli_cmd_monitor.o
+LOAD ./cli/soc_obj/cli.o
+LOAD ./driver/ampdu/soc_obj/drv_ampdu.o
+LOAD ./driver/beacon/soc_obj/drv_beacon.o
+LOAD ./driver/dbg_timer/soc_obj/dbg_timer.o
+LOAD ./driver/edca/soc_obj/drv_edca.o
+LOAD ./driver/hwmac/soc_obj/drv_mac.o
+LOAD ./driver/idmanage/soc_obj/drv_idmanage.o
+LOAD ./driver/mbox/soc_obj/drv_mbox.o
+LOAD ./driver/nav/soc_obj/drv_nav.o
+LOAD ./driver/phy/soc_obj/drv_phy.o
+LOAD ./driver/pmu/soc_obj/drv_pmu.o
+LOAD ./driver/random/soc_obj/drv_random.o
+LOAD ./driver/rtc/soc_obj/drv_rtc.o
+LOAD ./driver/security/soc_obj/drv_security.o
+LOAD ./driver/timer/soc_obj/drv_timer.o
+LOAD ./driver/uart/soc_obj/drv_uart.o
+LOAD ./lib/soc_obj/ssv_lib.o
+LOAD ./lib/soc_obj/lib-impl.o
+LOAD ./rtos/FreeRTOS/Source/portable/GCC/SSV6200/soc_obj/port.o
+LOAD ./rtos/FreeRTOS/Source/portable/GCC/SSV6200/soc_obj/portISR.o
+LOAD ./rtos/FreeRTOS/Source/portable/MemMang/soc_obj/heap_3.o
+LOAD ./rtos/FreeRTOS/Source/soc_obj/croutine.o
+LOAD ./rtos/FreeRTOS/Source/soc_obj/list.o
+LOAD ./rtos/FreeRTOS/Source/soc_obj/queue.o
+LOAD ./rtos/FreeRTOS/Source/soc_obj/tasks.o
+LOAD ./rtos/FreeRTOS/Source/soc_obj/timers.o
+LOAD ./rtos/FreeRTOS/soc_obj/rtos_glue.o
+LOAD ./rtos/soc_obj/rtos.o
+LOAD /mnt/hgfs/svn_code/new/firmware/104x/smartcfg/libairkiss.a
+START GROUP
+LOAD /opt/toolchain/gcc-arm-none-eabi-4_6-2012q1/bin/../lib/gcc/arm-none-eabi/4.6.2/libgcc.a
+LOAD /opt/toolchain/gcc-arm-none-eabi-4_6-2012q1/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/libc.a
+END GROUP
+                0x0002fffc                __stack_end__ = 0x2fffc
+                0x0002fffc                __mem_end__ = __stack_end__
+                0x00000000                __mem_start__ = 0x0
+                0x00000000                . = 0x0
+
+startup         0x00000000       0x4c
+ *(.startup)
+ .startup       0x00000000       0x4c ./bsp/soc_obj/boot.o
+
+prog            0x0000004c    0x2a26a
+ *(.text)
+ .text          0x0000004c        0x0 ./version.o
+ .text          0x0000004c      0x770 ./apps/mac80211/supplicant/common/soc_obj/wpa_common.o
+                0x00000144                wpa_eapol_key_mic
+                0x000001b0                wpa_pmk_to_ptk
+                0x000002a8                wpa_parse_wpa_ie_rsn
+                0x000004a8                wpa_parse_wpa_ie_wpa
+                0x00000690                wpa_cipher_txt
+                0x000006b0                wpa_compare_rsn_ie
+ .text          0x000007bc       0x70 ./apps/mac80211/supplicant/common/soc_obj/defs.o
+                0x000007bc                wpa_key_mgmt_wpa_ieee8021x
+                0x000007cc                wpa_key_mgmt_wpa_psk
+                0x000007e4                wpa_key_mgmt_ft
+                0x000007f4                wpa_key_mgmt_sha256
+                0x00000804                wpa_key_mgmt_wpa
+ .text          0x0000082c      0x138 ./apps/mac80211/supplicant/crypto/soc_obj/aes-internal.o
+                0x0000082c                rijndaelKeySetupEnc
+ .text          0x00000964      0x53c ./apps/mac80211/supplicant/crypto/soc_obj/aes-internal-dec.o
+                0x00000964                rijndaelKeySetupDec
+                0x00000a60                aes_decrypt_init
+                0x00000a90                aes_decrypt
+                0x00000e80                aes_decrypt_deinit
+ .text          0x00000ea0      0x4a4 ./apps/mac80211/supplicant/crypto/soc_obj/aes-internal-enc.o
+                0x00000ea0                rijndaelEncrypt
+                0x000012f0                aes_encrypt_init
+                0x00001320                aes_encrypt
+                0x00001324                aes_encrypt_deinit
+ .text          0x00001344      0x134 ./apps/mac80211/supplicant/crypto/soc_obj/aes-unwrap.o
+                0x00001344                aes_unwrap
+ .text          0x00001478        0x0 ./apps/mac80211/supplicant/crypto/soc_obj/crypto_internal.o
+ .text          0x00001478      0x194 ./apps/mac80211/supplicant/crypto/soc_obj/md5.o
+                0x00001478                hmac_md5_vector
+                0x000015dc                hmac_md5
+ .text          0x0000160c      0xc10 ./apps/mac80211/supplicant/crypto/soc_obj/md5-internal.o
+                0x00002014                MD5Init
+                0x00002048                MD5Update
+                0x00002114                MD5Final
+                0x000021b4                md5_vector
+ .text          0x0000221c      0x128 ./apps/mac80211/supplicant/crypto/soc_obj/rc4.o
+                0x0000221c                rc4_skip
+ .text          0x00002344      0x45c ./apps/mac80211/supplicant/crypto/soc_obj/sha1.o
+                0x000023cc                prepare_hmac_sha1_vector
+                0x00002454                exec_hmac_sha1_vector
+                0x00002500                hmac_sha1_vector
+                0x00002560                hmac_sha1
+                0x00002590                sha1_prf
+                0x00002694                get_hmac_sha1_loop_data_size
+                0x0000269c                init_hmac_sha1_loop
+                0x0000273c                reinit_hmac_sha1_loop
+                0x00002768                loop_hmac_sha1
+                0x00002798                stop_hmac_sha1_loop
+ .text          0x000027a0      0x2f4 ./apps/mac80211/supplicant/crypto/soc_obj/sha1-internal.o
+                0x000027c8                SHA1Init
+                0x00002808                sha1_simple_vector
+                0x000028a0                SHA1Update
+                0x00002960                SHA1Final
+                0x00002a2c                sha1_vector
+ .text          0x00002a94      0x1fc ./apps/mac80211/supplicant/crypto/soc_obj/sha1-pbkdf2.o
+                0x00002a94                init_pbkdf2_sha1_calc
+                0x00002b64                pbkdf2_sha1_calc_func
+                0x00002c84                deinit_pbkdf2_sha1_calc
+ .text          0x00002c90      0x884 ./apps/mac80211/supplicant/drivers/soc_obj/driver_cabrio.o
+                0x00002c90                wpa_drv_set_countermeasures
+                0x00002c98                wpa_drv_get_bssid
+                0x00002cc8                wpa_drv_get_ssid
+                0x00002d00                sram_del_key
+                0x00002e14                sram_set_key
+                0x00002f44                srame_get_rx_pn
+                0x00002f4c                sram_set_wep
+                0x00002fa4                wpa_drv_set_key
+                0x0000327c                wpa_drv_get_mac_addr
+                0x0000328c                wpa_drv_send_eapol
+                0x000034dc                wpa_drv_set_operstate
+ .text          0x00003514     0x14c4 ./apps/mac80211/supplicant/rsn_supp/soc_obj/wpa.o
+                0x00003514                wpa_eapol_key_send
+                0x000035f4                wpa_sm_key_request
+                0x0000373c                wpa_supplicant_send_2_of_4
+                0x00003898                wpa_supplicant_send_4_of_4
+                0x000039e0                wpa_sm_rx_eapol
+                0x00004620                wpa_sm_init
+                0x00004644                wpa_sm_deinit
+                0x00004690                wpa_sm_notify_assoc
+                0x000046d8                wpa_sm_set_pmk
+                0x000046e8                wpa_sm_set_own_addr
+                0x000046fc                wpa_sm_set_param
+                0x0000475c                wpa_sm_get_param
+                0x000047b4                wpa_sm_set_assoc_wpa_ie_default
+                0x00004828                wpa_sm_set_assoc_wpa_ie
+                0x0000489c                wpa_sm_set_ap_wpa_ie
+                0x00004910                wpa_sm_set_ap_rsn_ie
+                0x00004984                wpa_sm_parse_own_wpa_ie
+                0x000049c0                wpa_sm_has_ptk
+                0x000049cc                wpa_sm_update_replay_ctr
+ .text          0x000049d8      0x64c ./apps/mac80211/supplicant/rsn_supp/soc_obj/wpa_ie.o
+                0x000049d8                wpa_parse_wpa_ie
+                0x00004a14                wpa_gen_wpa_ie
+                0x00004d8c                wpa_supplicant_parse_ies
+ .text          0x00005024      0x36c ./apps/mac80211/supplicant/utils/soc_obj/common.o
+                0x000050fc                hex2byte
+                0x00005130                hwaddr_aton
+                0x000051a8                hwaddr_compact_aton
+                0x00005208                hwaddr_aton2
+                0x00005290                hexstr2bin
+                0x000052dc                inc_byte_array
+                0x00005308                wpa_snprintf_hex
+                0x0000531c                wpa_snprintf_hex_uppercase
+                0x00005330                wpa_ssid_txt
+                0x0000538c                __hide_aliasing_typecast
+ .text          0x00005390      0x260 ./apps/mac80211/supplicant/utils/soc_obj/eloop_rtos.o
+                0x000053d0                eloop_init
+                0x000053f0                eloop_register_timeout
+                0x0000552c                eloop_cancel_timeout
+ .text          0x000055f0       0x24 ./apps/mac80211/supplicant/utils/soc_obj/os_rtos.o
+                0x000055f0                os_malloc
+                0x00005604                os_free
+                0x00005610                os_get_random
+ .text          0x00005614        0x0 ./apps/mac80211/supplicant/utils/soc_obj/wpa_debug.o
+ .text          0x00005614      0x364 ./apps/mac80211/supplicant/soc_obj/events.o
+                0x00005614                wpa_supplicant_stop_countermeasures
+                0x0000562c                wpa_supplicant_mark_disassoc
+                0x00005650                supplicant_event
+ .text          0x00005978      0x6c4 ./apps/mac80211/supplicant/soc_obj/wpa_supplicant.o
+                0x000059c4                wpa_supplicant_req_auth_timeout
+                0x00005a0c                wpa_supplicant_cancel_auth_timeout
+                0x00005a20                wpa_clear_keys
+                0x00005ac8                wpa_supplicant_state_txt
+                0x00005ae4                wpa_supplicant_set_state
+                0x00005afc                wpa_supplicant_clear_status
+                0x00005b3c                pbkdf2_sha1_iter
+                0x00005b7c                wpa_supplicant_set_suites
+                0x00005d68                wpa_supplicant_associate
+                0x00005d88                wpa_supplicant_disassociate
+                0x00005dc4                wpa_supplicant_deauthenticate
+                0x00005e50                wpa_supplicant_get_ssid
+                0x00005e88                wpa_supplicant_rx_eapol
+                0x00005f7c                wpa_supplicant_driver_init
+                0x00005fac                wpa_supplicant_remove_iface
+                0x00005fbc                wpa_supplicant_init
+                0x00006038                wpa_supplicant_deinit
+ .text          0x0000603c       0xd0 ./apps/mac80211/supplicant/soc_obj/wpas_glue.o
+                0x0000603c                wpa_alloc_eapol
+                0x000060bc                wpa_ether_send
+                0x000060c8                wpa_supplicant_get_state
+                0x000060d0                wpa_supplicant_set_key
+                0x000060d4                wpa_supplicant_set_rekey_offload
+                0x000060d8                wpa_supplicant_init_wpa
+ .text          0x0000610c     0x1724 ./apps/mac80211/soc_obj/cmd_engine.o
+                0x000066e8                CmdEngine_SetAMPDU_Param
+                0x000066f8                CmdEngine_SetHTProtect
+                0x00006764                CmdEngine_set_self_bcn
+                0x00006844                mlme_ap_pmk_calc_task
+                0x00006928                CmdEngine_ScanRequest
+                0x00006950                CmdEngine_SetPwrSaving
+                0x00006984                CmdEngine_SconfigRequest
+                0x000069e8                CmdEngine_recover
+                0x00006a68                check_tx_rx_traffic
+                0x00006aa0                cmd_eng_wsid_opr
+                0x00006c34                set_fw_bcn
+                0x00006c6c                send_bcn
+                0x00006d9c                HostEventAlloc
+                0x0000737c                pmk_done
+                0x00007498                host_cmd_resp_alloc
+                0x0000752c                HostEventReAlloc
+                0x00007740                CmdEngine_handle
+                0x000077ac                cmd_engine_init
+ .text          0x00007830     0x1d00 ./apps/mac80211/soc_obj/soft-main.o
+                0x000078d0                softmac_generic_extrainfo
+                0x000082d4                send_deauth_to_sta
+                0x00008358                SoftMac_GetSWReason
+                0x00008410                IsSoftMacTaskSleeping
+                0x00008498                _is_hw_queue_ready_for_tx
+                0x000084a0                _is_hw_queue_ready_for_rx
+                0x000084ac                ssv6xxx_PushRxPacketToNextHW
+                0x00008584                ssv6xxx_RxPacketToNextHW
+                0x00008660                ssv6xxx_PushTxPacketToNextHW
+                0x000088e4                ssv6xxx_TxPacketToNextHW
+                0x00008a84                ssv6xxx_PacketToNextHW
+                0x00008c04                SoftMac_WsidNotFoundHandler
+                0x00008da8                SoftMac_NullFrameHandler
+                0x000090a0                soft_mac_task
+                0x00009420                soft_mac_init
+ .text          0x00009530      0x42c ./apps/mac80211/soc_obj/sta_info.o
+                0x00009530                StaMonitorTimerHandler
+                0x000095c8                staInfo_mutex_init
+                0x000095d4                staInfo_mutex_lock
+                0x000095f8                staInfo_mutex_unlock
+                0x0000961c                SetStaAction
+                0x00009640                StartStaMonitorTimer
+                0x00009700                StopStaMonitorTimer
+                0x00009730                STAInfo_FindSTAByAddr
+                0x00009780                STAInfo_Init
+                0x0000987c                stainfo_add_sta
+                0x0000989c                stainfo_del_sta
+                0x000098a4                stainfo_reset_sta
+                0x000098ac                stainfo_set_sec_key
+                0x000098b4                stainfo_is_ampdu_ready
+                0x000098dc                is_sta_timer
+                0x000098fc                querySTAAction
+                0x00009920                querySTAState
+                0x00009944                IsSTAActReady
+ .text          0x0000995c       0xf8 ./apps/mac80211/soc_obj/util.o
+                0x0000995c                BitRate_BitMask2IE
+                0x000099e4                BitRate_IE2BitMask
+ .text          0x00009a54      0xa64 ./apps/mac80211/soc_obj/SmartConfig.o
+                0x00009a54                start_airkiss
+                0x00009ab4                set_next_channel
+                0x00009b50                Sconfig_Done
+                0x00009c7c                SConfig_action
+                0x00009fb0                SConfig_Rx_Handler
+                0x0000a34c                SConfig_FillWorkJobReq
+                0x0000a424                MLME_SConfig
+ .text          0x0000a4b8     0x2ef8 ./apps/mac80211/soc_obj/mlme.o
+                0x0000ace0                ieee80211_hdrlen
+                0x0000ad40                mlme_parse_elems
+                0x0000b17c                supportRateParser
+                0x0000b240                _set_short_slot_time
+                0x0000b2a4                set_short_slot_time
+                0x0000b31c                set_ht_protection
+                0x0000b398                set_erp_param
+                0x0000b45c                ieee80211_get_rates
+                0x0000b544                get_sta_info_from_assoc_resp
+                0x0000b9dc                sta_mode_set_rcpi_value
+                0x0000ba10                sta_mode_fine_tune_rcpi
+                0x0000ba64                Fill_TxDescriptor
+                0x0000bae4                Fill_Mgmt_FC
+                0x0000bb04                Fill_SSID
+                0x0000bb30                Fill_RSN
+                0x0000bb6c                Fill_WMM_INFO
+                0x0000bbf4                Fill_HT_IE
+                0x0000bc9c                Fill_ht_cap_ie
+                0x0000bcc4                mlme_mgmt_send
+                0x0000bd34                mlme_null_send
+                0x0000c23c                mlme_send_probe_req
+                0x0000c3d8                Fill_support_rate
+                0x0000c4c8                mlme_send_assoc_req
+                0x0000c6c8                mlme_send_auth
+                0x0000c83c                mlme_send_deauth
+                0x0000c95c                mlme_timer_handler
+                0x0000c9ac                mlme_send_null_frame
+                0x0000ca1c                get_bss_info
+                0x0000cc34                mlme_init
+                0x0000cc80                _mlme_sta_disconnect
+                0x0000cd48                mlme_send_addba_response
+                0x0000ce7c                send_addba_response_to_host
+                0x0000cf4c                mlme_addba_setting
+ .text          0x0000d3b0      0x648 ./apps/mac80211/soc_obj/MLME_Task.o
+                0x0000d3b0                Supplicant_Notify_MLME_4way
+                0x0000d3e8                MLME_Cmd_Done
+                0x0000d4b8                MLME_TxManageFrame
+                0x0000d58c                MLME_TimeOutHandle
+                0x0000d68c                MLME_RxManageFrame
+                0x0000d70c                MLME_RxEapolFrame
+                0x0000d774                MLME_add_background_task
+                0x0000d7b8                MLME_DetectAP
+                0x0000d854                MLME_Task
+ .text          0x0000d9f8      0x968 ./apps/mac80211/soc_obj/MLME_Scan.o
+                0x0000d9f8                Scan_MonitorCCAStatus
+                0x0000da48                Scan_FillWorkJobReq
+                0x0000db50                Scan_PreProcess
+                0x0000db58                Scan_Done
+                0x0000dc7c                Scan_PostProcess
+                0x0000dcac                Scan_set_next_channel
+                0x0000dd28                Scan_process_result
+                0x0000de7c                Scan_Channel_Change
+                0x0000df50                Scan_Stop_Phy_Counter
+                0x0000df84                Scan_Start_Phy_Counter
+                0x0000dfb8                Scan_action
+                0x0000e240                MLME_Scan
+ .text          0x0000e360      0x9fc ./apps/mac80211/soc_obj/MLME_Join.o
+                0x0000e360                mlme_supplicant_key_calc_task
+                0x0000e39c                Join_FillWorkJobReq
+                0x0000e434                _apply_join_req_wsid
+                0x0000e46c                mlme_config_wpa_suppliciant
+                0x0000e7dc                get_basic_rate
+                0x0000e868                set_basic_rate
+                0x0000e86c                _Join_process_result
+                0x0000e938                Join_process_result
+                0x0000e99c                Join_action
+                0x0000eba0                MLME_Join
+ .text          0x0000ed5c      0x160 ./apps/mac80211/soc_obj/MLME_Leave.o
+                0x0000ed5c                MLME_Leave_Resp
+                0x0000ee34                MLME_Leave
+ .text          0x0000eebc      0xc90 ./apps/mac80211/soc_obj/edca.o
+                0x0000eebc                EDCA_init
+                0x0000ef3c                EDCA_get_cfg
+                0x0000ef94                EDCA_Duration
+                0x0000efc8                EDCA_generic_frame_duration
+                0x0000eff0                EDCA_rts_ctstoself_duration
+                0x0000f0d4                EDCA_FillRelatedDuration
+                0x0000f470                EDCA_SendFrametoMailbox
+                0x0000f534                EDCA_MacTxIntNotify
+                0x0000f58c                EDCA_Handler
+ .text          0x0000fb4c      0xe08 ./apps/mac80211/soc_obj/MLME_PwrSaving.o
+                0x0000fb4c                irq_beacon_timer_handler
+                0x0000fb84                beacon_sync_timeout
+                0x0000fbb0                host_wakeup_timeout
+                0x0000fbdc                set_wakeup_BB_gpio
+                0x0000fbf8                ps_stop_all_tmr
+                0x0000fc1c                MLME_is_ps_doze
+                0x0000fc50                ps_ip_check
+                0x0000fc70                MLME_ps_send_evt2host
+                0x0000fcd8                MLME_host_wakeup_timeout
+                0x0000fd54                MLME_ps_exit
+                0x0000fe48                _ps_wow_exit
+                0x0000fe8c                MLME_ps_wow
+                0x00010054                mlme_active_pmu_sleep
+                0x000100a8                enterSystemSleep
+                0x000101d0                mlme_ps_deep_sleep
+                0x000101e0                _ps_bcn_sync_stmr_start
+                0x00010294                ieee80211_check_tim
+                0x00010304                MLME_ps_beacon_sync_timeout
+                0x000103d4                ps_send_null_frame_mib
+                0x00010474                phy_mode_switch
+                0x000104e4                MLME_ps_bcn_handling
+                0x00010710                MLME_PwrSaving
+ .text          0x00010954      0x178 ./apps/mac80211/soc_obj/edca_queue.o
+                0x00010954                EDCA_QUE_Setup
+                0x00010990                EDCA_addToQueue
+                0x000109fc                EDCA_RemoveFromQueue
+                0x00010a64                EDCA_PeekFromQueue
+                0x00010a98                EDCA_QueueEmpty
+                0x00010ac8                EDCA_PrintQueueInfo
+ .text          0x00010acc     0x30e4 ./apps/mac80211/soc_obj/pide_algo.o
+                0x00011358                _calculate_tp
+                0x000113a8                rateControlGetRate
+                0x000113c8                _calculate_bmode_txtime
+                0x00011590                rate_control_pid_tx_status
+                0x00012264                rate_control_pid_get_rate
+                0x00012704                rate_control_pid_sta_connect
+                0x000129b8                rate_control_pid_sta_disconnect
+                0x00012a80                rate_control_pid_init
+                0x00012ab0                rate_control_pid_deinit
+                0x00012ab8                rate_control_jump_rate
+                0x00012acc                rate_control_fix_rate
+                0x00012b3c                rate_control_fix_preamble
+                0x00012b60                rate_control_fix_network
+                0x00012b84                rate_control_reset_tbl
+                0x00012c28                rate_control_set_defaul_rates_by_sta
+                0x00012d30                rate_control_set_default_rates_mask
+                0x00012d5c                rate_control_set_rate_capa_by_sta
+                0x00012d94                rate_control_set_gf
+                0x00012dac                rate_control_set_erp_protect
+                0x00012dd0                rate_control_get_erp_protect
+                0x00012de0                rate_control_set_preamble
+                0x00012e28                rate_control_show_info
+                0x00013204                rate_control_set_feature
+                0x00013228                rate_control_set_variables
+                0x000133cc                rate_control_update_drate_by_hwidx
+                0x000134dc                rate_control_pid_get_multi_rates
+                0x0001354c                rate_control_is_resend_failreport
+                0x000135a4                rate_control_pid_return_probe_frame
+                0x00013640                rate_control_pid_is_probe_needed
+                0x00013708                rate_control_pid_prb_frame_gen
+                0x00013b50                rate_control_pid_is_nmode_rate
+ .text          0x00013bb0      0x1e0 ./apps/mac80211/soc_obj/psk_cache.o
+                0x00013bb0                init_psk_cache
+                0x00013bd0                add_psk_to_cache
+                0x00013d04                find_psk_in_cache
+ .text          0x00013d90       0x68 ./apps/mac80211/soc_obj/ssv_pkt.o
+                0x00013d90                ssv6xxx_get_pbuf_hdr80211
+                0x00013dc4                ssv6xxx_get_addr_hdr80211
+ .text          0x00013df8      0x5a8 ./apps/soc_obj/app_main.o
+                0x00013df8                dump_mailbox_dbg
+                0x00013ff8                enable_mailbox_dbg
+                0x0001403c                _calc_fw_checksum
+                0x000140b0                APP_Main
+ .text          0x000143a0      0x39c ./apps/soc_obj/msgevt.o
+                0x000143a0                msg_evt_alloc_0
+                0x000143d8                msg_evt_alloc
+                0x000143f4                msg_evt_free_0
+                0x00014420                msg_evt_free
+                0x0001443c                msg_evt_post
+                0x00014498                msg_evt_count
+                0x000144d4                msg_evt_empty
+                0x00014518                msg_evt_fetch
+                0x000145c0                msg_evt_init
+                0x00014694                msg_evt_post_data1
+ .text          0x0001473c      0x28c ./apps/soc_obj/pbuf.o
+                0x000147b8                PBUF_Init
+                0x000147d0                PBUF_MAlloc_Raw
+                0x00014830                _PBUF_MFree
+                0x0001488c                PBUF_is_reusable
+                0x0001495c                _PBUF_MReAlloc
+ .text          0x000149c8        0x0 ./apps/soc_obj/soc_global.o
+ .text          0x000149c8      0xd5c ./apps/soc_obj/soc_log.o
+                0x000149c8                _log_out_dst_open_dump
+                0x00014abc                _log_out_dst_cur_dump
+                0x00014bb8                _log_tag_lvl_str
+                0x00014c3c                _log_tag_mod_str
+                0x00014cbc                _log_prnf_cfg_dump
+                0x00014da4                LOG_hcmd_dump
+                0x00014f74                LOG_init
+                0x00014fd8                LOG_out_desc_dump
+                0x00015004                LOG_out_init
+                0x00015024                _soc_out_dst_open
+                0x00015180                _soc_out_dst_close
+                0x00015380                _soc_out_dst_turn_on
+                0x000154d0                _soc_out_dst_turn_off
+                0x00015620                soc_printf
+                0x0001562c                soc_fatal
+                0x00015638                _log_evt_prnf_dump
+ .text          0x00015724       0x94 ./bsp/soc_obj/boot.o
+                0x00015724                start
+                0x000157a8                endless_loop
+ .text          0x000157b8       0x78 ./bsp/soc_obj/bsp.o
+                0x000157b8                bsp_init
+ .text          0x00015830       0xb4 ./bsp/soc_obj/cpu.o
+                0x00015830                cpu_get_registers
+                0x00015860                cpu_dump_register
+                0x000158bc                cpu_enable_clock
+ .text          0x000158e4      0x738 ./bsp/soc_obj/irq.o
+                0x00015934                irq_disable
+                0x0001594c                irq_enable
+                0x00015964                do_exception
+                0x000159cc                reset_phy
+                0x00015a44                rx_packet_check
+                0x00015bc0                irq_dispatch
+                0x00015c78                check_rf_Setting
+                0x00015d6c                check_channel_recalibration
+                0x00015de8                do_irq
+                0x00015eb8                _irq_request
+                0x00015fa8                irq_init
+ .text          0x0001601c      0x4b8 ./bsp/soc_obj/serial.o
+                0x0001601c                UART0_TxISR
+                0x0001608c                UART0_RxISR
+                0x000160cc                xSerialPortInitMinimal
+                0x00016178                xSerialGetChar
+                0x000161dc                xSerialPutChar
+                0x00016308                vSerialPutString
+ .text          0x000164d4      0xe6c ./cli/cmds/soc_obj/cli_cmd.o
+                0x000172e0                DumpSecureSetting
+ .text          0x00017340      0x178 ./cli/cmds/soc_obj/cli_cmd_monitor.o
+                0x00017340                mac_monitor_start
+                0x000173e0                mac_monitor_stop
+                0x00017400                mointerHandler
+ .text          0x000174b8      0x57c ./cli/soc_obj/cli.o
+                0x00017620                Cli_Init
+                0x0001766c                Cli_Start
+                0x00017a1c                Cli_Task
+ .text          0x00017a34     0x1a18 ./driver/ampdu/soc_obj/drv_ampdu.o
+                0x00017c8c                _tx_memory_check
+                0x00017d00                _retry_ampdu_frame
+                0x00017f98                _retry_last_in_BMode
+                0x000180b8                amdpu_init
+                0x00018120                _alloc_tx_frame
+                0x00018178                ampdu_addba_req
+                0x000182b0                ampdu_send_bar
+                0x000183a8                ampdu_reform_apmdu_to_mpdu
+                0x00018424                ampdu_reform_mpdu_to_apmdu
+                0x00018610                _process_failed_ampdu
+                0x000187e0                irq_us_timer1_handler
+                0x00018878                _process_success_ampdu
+                0x00018958                ampdu_rx_ctrl_handler
+                0x00018bb0                ampdu_tx_report_handler
+                0x00019028                ampdu_reset_ampdu_mib
+                0x00019080                ampdu_show_ampdu_mib
+                0x0001922c                ampdu_dump_retry_list
+                0x000192a0                ampdu_tx_set_enable
+                0x000192e0                ampdu_tx_set_options
+ .text          0x0001944c      0x138 ./driver/beacon/soc_obj/drv_beacon.o
+                0x0001944c                drv_bcn_reg_available
+                0x000194b8                beacon_free
+                0x000194bc                drv_bcn_set
+                0x00019570                drv_bcn_init
+ .text          0x00019584       0xb4 ./driver/dbg_timer/soc_obj/dbg_timer.o
+                0x00019584                dbg_timer_init
+                0x000195a4                dbg_timer_switch
+                0x000195c0                dbg_get_time
+                0x000195dc                dbg_get_elapsed
+                0x00019604                dbg_timer_push
+                0x00019634                dbg_timer_pop
+ .text          0x00019638       0xb0 ./driver/edca/soc_obj/drv_edca.o
+                0x00019638                drv_edca_get_wmm_param
+                0x00019650                drv_edca_set_wmm_param
+                0x00019668                drv_edca_queue_halt
+                0x000196b4                drv_edca_enable_interrupt
+ .text          0x000196e8     0x1754 ./driver/hwmac/soc_obj/drv_mac.o
+                0x000196e8                ap_mode_set_rcpi_value
+                0x0001975c                ap_mode_update_rate_from_sta
+                0x000197b4                ap_mode_monitor_pm_status
+                0x00019934                update_heartbeat
+                0x000199cc                drv_mac_set_sta_mac
+                0x00019a20                drv_mac_get_sta_mac
+                0x00019a54                drv_mac_set_ba_ta
+                0x00019aa8                drv_mac_get_ba_ta
+                0x00019acc                drv_mac_set_ba_switch
+                0x00019b10                drv_mac_get_ba_switch
+                0x00019b20                drv_mac_set_ba_winsize
+                0x00019b64                drv_mac_get_ba_winsize
+                0x00019b74                drv_mac_set_bssid
+                0x00019bc0                drv_mac_get_bssid
+                0x00019bf4                drv_mac_get_wsid_peer_mac
+                0x00019c2c                drv_mac_set_wsid_table
+                0x00019cd8                drv_mac_get_wsid_table
+                0x00019dac                drv_mac_set_gmfilter
+                0x00019e20                drv_mac_get_gmfilter
+                0x00019e84                drv_mac_set_tx_ether_trap
+                0x00019ed0                drv_mac_get_tx_ether_trap
+                0x00019f08                drv_mac_set_rx_ether_trap
+                0x00019f54                drv_mac_get_rx_ether_trap
+                0x00019f8c                drv_mac_set_decision_table
+                0x00019ff0                drv_mac_get_decision_table
+                0x0001a054                drv_mac_get_decision_table_value
+                0x0001a088                drv_mac_get_decision_table_mask
+                0x0001a0bc                drv_mac_set_tx_flow_data
+                0x0001a0e4                drv_mac_get_tx_flow_data
+                0x0001a108                drv_mac_set_tx_flow_mgmt
+                0x0001a144                drv_mac_get_tx_flow_mgmt
+                0x0001a174                drv_mac_set_tx_flow_ctrl
+                0x0001a198                drv_mac_get_tx_flow_ctrl
+                0x0001a1b4                drv_mac_set_rx_flow_data
+                0x0001a1dc                drv_mac_get_rx_flow_data
+                0x0001a200                drv_mac_set_rx_flow_mgmt
+                0x0001a23c                drv_mac_get_rx_flow_mgmt
+                0x0001a270                drv_mac_set_rx_flow_ctrl
+                0x0001a2ac                drv_mac_get_rx_flow_ctrl
+                0x0001a2e0                drv_mac_set_trap_mask
+                0x0001a304                drv_mac_get_trap_mask
+                0x0001a320                show_DMN_status
+                0x0001a5f4                drv_mac_int_debug
+                0x0001a674                drv_mac_init
+                0x0001a6a8                block_all_traffic
+                0x0001a6f4                stop_and_halt
+                0x0001a728                stop_and_dump_and_halt
+                0x0001ae1c                stop_and_dump
+ .text          0x0001ae3c       0xc0 ./driver/idmanage/soc_obj/drv_idmanage.o
+                0x0001ae3c                drv_id_mng_alloc
+                0x0001aedc                drv_id_mng_rls
+                0x0001aee8                drv_id_mng_full
+ .text          0x0001aefc      0x130 ./driver/mbox/soc_obj/drv_mbox.o
+                0x0001aefc                drv_mailbox_cpu_ff
+                0x0001afb0                drv_mailbox_cpu_pri_ff
+                0x0001afe4                drv_mailbox_cpu_next
+                0x0001b014                drv_mailbox_arb_ff
+                0x0001b018                drv_mailbox_next
+                0x0001b01c                drv_mailbox_send
+ .text          0x0001b02c       0x84 ./driver/nav/soc_obj/drv_nav.o
+                0x0001b02c                drv_get_duration
+ .text          0x0001b0b0     0x1cd4 ./driver/phy/soc_obj/drv_phy.o
+                0x0001b0b0                rg_idacai_pgag0_load
+                0x0001b0cc                rg_idacai_pgag1_load
+                0x0001b0e8                rg_idacai_pgag2_load
+                0x0001b104                rg_idacai_pgag3_load
+                0x0001b120                rg_idacai_pgag4_load
+                0x0001b13c                rg_idacai_pgag5_load
+                0x0001b158                rg_idacai_pgag6_load
+                0x0001b174                rg_idacai_pgag7_load
+                0x0001b190                rg_idacai_pgag8_load
+                0x0001b1ac                rg_idacai_pgag9_load
+                0x0001b1c8                rg_idacai_pgag10_load
+                0x0001b1e4                rg_idacai_pgag11_load
+                0x0001b200                rg_idacai_pgag12_load
+                0x0001b21c                rg_idacai_pgag13_load
+                0x0001b238                rg_idacai_pgag14_load
+                0x0001b254                rg_idacai_pgag15_load
+                0x0001b270                rg_idacaq_pgag0_load
+                0x0001b28c                rg_idacaq_pgag1_load
+                0x0001b2a8                rg_idacaq_pgag2_load
+                0x0001b2c4                rg_idacaq_pgag3_load
+                0x0001b2e0                rg_idacaq_pgag4_load
+                0x0001b2fc                rg_idacaq_pgag5_load
+                0x0001b318                rg_idacaq_pgag6_load
+                0x0001b334                rg_idacaq_pgag7_load
+                0x0001b350                rg_idacaq_pgag8_load
+                0x0001b36c                rg_idacaq_pgag9_load
+                0x0001b388                rg_idacaq_pgag10_load
+                0x0001b3a4                rg_idacaq_pgag11_load
+                0x0001b3c0                rg_idacaq_pgag12_load
+                0x0001b3dc                rg_idacaq_pgag13_load
+                0x0001b3f8                rg_idacaq_pgag14_load
+                0x0001b414                rg_idacaq_pgag15_load
+                0x0001b430                rfreg_byxtal_load
+                0x0001b4b4                rfreg_bych_load
+                0x0001b530                drv_phy_tbl_load
+                0x0001b578                drv_phy_wait_rdy
+                0x0001b5a8                drv_phy_temperature
+                0x0001b638                drv_phy_cali_tssi
+                0x0001b7dc                drv_phy_cali_rcal
+                0x0001b830                drv_phy_channel_change
+                0x0001b980                drv_phy_sprm
+                0x0001b9e4                drv_phy_cali_rxrc
+                0x0001bc28                drv_phy_cali_txiq
+                0x0001bd84                drv_phy_cali_txlo
+                0x0001bef0                drv_phy_fft_enrg
+                0x0001bf44                drv_phy_cali_rxiq_fft
+                0x0001c0ac                rtbl_cali_reg_rmw
+                0x0001c0d4                rtbl_cali_pre_load
+                0x0001c144                drv_phy_cali_rxdc
+                0x0001c390                rtbl_cali_load
+                0x0001c3b4                rtbl_cali_export
+                0x0001c3c8                rtbl_cali_load_def
+                0x0001c438                rtbl_cali_reset
+                0x0001c474                rtbl_cali_set
+                0x0001c500                drv_phy_init
+                0x0001c554                drv_phy_off
+                0x0001c568                drv_phy_b_only
+                0x0001c578                drv_phy_bgn
+                0x0001c58c                drv_phy_on
+                0x0001c5a0                drv_phy_delay
+                0x0001c5d8                drv_phy_tx_loopback
+                0x0001c79c                drv_phy_cali_ro_iqcal_o
+                0x0001c7a8                drv_phy_cali_papd_div
+                0x0001c82c                drv_phy_reg_init
+                0x0001c958                drv_phy_cali_rtbl_load
+                0x0001c9b8                phy_cali_config_load
+                0x0001caec                drv_phy_cali_rtbl_load_def
+                0x0001cb4c                drv_phy_cali_rtbl_reset
+                0x0001cbac                drv_phy_cali_rtbl_set
+                0x0001cc0c                drv_phy_cali_rtbl_export
+                0x0001cc1c                drv_phy_init_cali
+                0x0001ccf0                drv_phy_evm_tk
+                0x0001cd4c                drv_phy_tone_tk
+ .text          0x0001cd84      0x3dc ./driver/pmu/soc_obj/drv_pmu.o
+                0x0001cd84                drv_pmu_setwake_cnt
+                0x0001cde4                drv_pmu_tu0
+                0x0001ce48                drv_pmu_tm0
+                0x0001ceac                drv_pmu_sleep
+                0x0001d0e8                drv_pmu_init
+                0x0001d128                drv_pmu_chk
+                0x0001d140                drv_pmu_check_interupt_event
+ .text          0x0001d160       0x50 ./driver/random/soc_obj/drv_random.o
+                0x0001d160                drv_get_random
+ .text          0x0001d1b0       0x88 ./driver/rtc/soc_obj/drv_rtc.o
+                0x0001d1b0                drv_rtc_cali
+ .text          0x0001d238       0x5c ./driver/security/soc_obj/drv_security.o
+                0x0001d238                wpa_drv_init
+ .text          0x0001d294       0x7c ./driver/timer/soc_obj/drv_timer.o
+                0x0001d294                irq_timer_handler
+                0x0001d298                hwtmr_stop
+                0x0001d2b8                hwtmr_start
+                0x0001d2e4                hwtmr_init
+ .text          0x0001d310      0x18c ./driver/uart/soc_obj/drv_uart.o
+                0x0001d310                drv_uart_rx_ready
+                0x0001d330                drv_uart_rx
+                0x0001d35c                drv_uart_tx
+                0x0001d38c                drv_uart_init
+                0x0001d3e0                drv_uart_rx_0
+                0x0001d3f8                drv_uart_tx_0
+                0x0001d404                drv_uart_is_tx_busy_0
+                0x0001d41c                drv_uart_multiple_tx_0
+                0x0001d444                drv_uart_get_uart_fifo_length_0
+                0x0001d44c                drv_uart_enable_tx_int_0
+                0x0001d460                drv_uart_disable_tx_int_0
+                0x0001d474                drv_uart_enable_rx_int_0
+                0x0001d488                drv_uart_disable_rx_int_0
+ .text          0x0001d49c     0x1948 ./lib/soc_obj/ssv_lib.o
+                0x0001d49c                list_q_init
+                0x0001d4b0                list_q_qtail
+                0x0001d4d0                list_q_insert
+                0x0001d4f4                list_q_remove
+                0x0001d514                list_q_deq
+                0x0001d6cc                list_q_len
+                0x0001d6d4                list_q_len_safe
+                0x0001d6fc                list_q_qtail_safe
+                0x0001d72c                list_q_deq_safe
+                0x0001d75c                list_q_insert_safe
+                0x0001d794                list_q_remove_safe
+                0x0001d7c4                ssv6xxx_SWQWaittingSize
+                0x0001d82c                ssv6xxx_SWFreeQWaittingSize
+                0x0001d83c                ssv6xxx_SWQIntLock
+                0x0001d8e8                ssv6xxx_SWQIntUnLock
+                0x0001d994                ssv6xxx_SWQOutLock
+                0x0001da6c                ssv6xxx_SWQOutUnLock
+                0x0001db20                ssv6xxx_SWQOutConUnLock
+                0x0001dba4                ssv6xxx_SWQEnqueue
+                0x0001dbc0                ssv6xxx_SWQInsert
+                0x0001dbdc                ssv6xxx_SWQDequeue
+                0x0001dd20                ssv6xxx_SWQFlush
+                0x0001de38                ssv6xxx_isalpha
+                0x0001de60                ssv6xxx_atoi_base
+                0x0001dec0                ssv6xxx_atoi
+                0x0001df44                toupper
+                0x0001df58                ssv6xxx_str_toupper
+                0x0001df7c                tolower
+                0x0001df90                ssv6xxx_str_tolower
+                0x0001dfb4                strcmp
+                0x0001dfdc                strcat
+                0x0001e008                strncpy
+                0x0001e050                strlen
+                0x0001e070                ssv6xxx_strrpos
+                0x0001e0b4                memset
+                0x0001e128                clear_sw_queue
+                0x0001e198                memcpy
+                0x0001e1b8                memcmp
+                0x0001e1ec                fatal_printf
+                0x0001e228                printf
+                0x0001e254                free
+                0x0001e260                malloc
+                0x0001e2b8                wake_up_task
+                0x0001e300                ssv6xxx_msg_queue_status
+                0x0001e340                ssv6xxx_sw_queue_status
+                0x0001e4d0                ENG_MBOX_SEND
+                0x0001e504                ENG_MBOX_NEXT
+                0x0001e558                flush_sw_queue
+                0x0001e5c0                ssv6xxx_SWQInit
+                0x0001e6c4                snprintf
+                0x0001e6fc                vsnprintf
+                0x0001e71c                putstr
+                0x0001e730                snputstr
+                0x0001e750                kbhit
+                0x0001e758                getch
+                0x0001e760                putchar
+                0x0001e76c                ssv6xxx_hw_queue_status
+                0x0001ea18                ssv6xxx_queue_status
+                0x0001ea2c                ssv6xxx_raw_dump_ex
+                0x0001ebc4                ssv6xxx_raw_dump
+                0x0001ebf4                _packetdump
+                0x0001eca0                pkt_dump_txinfo
+                0x0001eca4                pkt_dump_rxinfo
+                0x0001eca8                hex_dump
+                0x0001ede0                halt
+ .text          0x0001ede4      0x6e8 ./lib/soc_obj/lib-impl.o
+                0x0001f10c                printstr
+                0x0001f134                print
+ .text          0x0001f4cc       0xf0 ./rtos/FreeRTOS/Source/portable/GCC/SSV6200/soc_obj/port.o
+                0x0001f4cc                pxPortInitialiseStack
+                0x0001f58c                xPortStartScheduler
+                0x0001f5b8                vPortEndScheduler
+ .text          0x0001f5bc      0x2c0 ./rtos/FreeRTOS/Source/portable/GCC/SSV6200/soc_obj/portISR.o
+                0x0001f5bc                vPortISRStartFirstTask
+                0x0001f618                vPortYieldProcessor
+                0x0001f630                SWI0Handler
+                0x0001f6e8                SWI1Handler
+                0x0001f704                STOP
+                0x0001f708                vPreemptiveTick
+                0x0001f800                vPortEnterCritical
+                0x0001f830                vPortExitCritical
+ .text          0x0001f87c       0x44 ./rtos/FreeRTOS/Source/portable/MemMang/soc_obj/heap_3.o
+                0x0001f87c                pvPortMalloc
+                0x0001f8a0                vPortFree
+ .text          0x0001f8c0      0x350 ./rtos/FreeRTOS/Source/soc_obj/croutine.o
+                0x0001f8c0                xCoRoutineCreate
+                0x0001f9b0                vCoRoutineAddToDelayedList
+                0x0001fa0c                vCoRoutineSchedule
+                0x0001fbc8                xCoRoutineRemoveFromEventList
+ .text          0x0001fc10      0x100 ./rtos/FreeRTOS/Source/soc_obj/list.o
+                0x0001fc10                vListInitialise
+                0x0001fc34                vListInitialiseItem
+                0x0001fc40                vListInsertEnd
+                0x0001fc70                vListInsert
+                0x0001fcc8                uxListRemove
+ .text          0x0001fd10      0xea0 ./rtos/FreeRTOS/Source/soc_obj/queue.o
+                0x0001feb8                xQueueGenericReset
+                0x0001ff58                xQueueGenericCreate
+                0x0001ffd4                xQueueCreateCountingSemaphore
+                0x00020038                xQueueGenericSend
+                0x000201e0                xQueueGiveMutexRecursive
+                0x00020240                xQueueCreateMutex
+                0x000202cc                xQueueAltGenericSend
+                0x00020404                xQueueAltGenericReceive
+                0x00020598                xQueueGenericSendFromISR
+                0x00020690                xQueueGenericReceive
+                0x0002086c                xQueueTakeMutexRecursive
+                0x000208d8                xQueueReceiveFromISR
+                0x0002099c                xQueuePeekFromISR
+                0x00020a0c                uxQueueMessagesWaiting
+                0x00020a58                uxQueueSpacesAvailable
+                0x00020a90                uxQueueMessagesWaitingFromISR
+                0x00020ab4                vQueueDelete
+                0x00020ae4                ucQueueGetQueueNumber
+                0x00020aec                vQueueSetQueueNumber
+                0x00020af4                ucQueueGetQueueType
+                0x00020afc                xQueueIsQueueEmptyFromISR
+                0x00020b28                xQueueIsQueueFullFromISR
+                0x00020b5c                vQueueWaitForMessageRestricted
+ .text          0x00020bb0     0x1334 ./rtos/FreeRTOS/Source/soc_obj/tasks.o
+                0x00020ce4                xTaskGenericCreate
+                0x00020f34                vTaskDelete
+                0x00020fb8                uxTaskPriorityGet
+                0x00020fe4                vTaskPrioritySet
+                0x000210ec                xTaskIsTaskSuspended
+                0x00021148                vTaskResume
+                0x000211e8                xTaskResumeFromISR
+                0x00021290                vTaskStartScheduler
+                0x0002132c                vTaskEndScheduler
+                0x0002134c                vTaskSuspendAll
+                0x00021364                xTaskGetTickCount
+                0x00021384                xTaskGetTickCountFromISR
+                0x00021394                uxTaskGetNumberOfTasks
+                0x000213a4                pcTaskGetTaskName
+                0x000213dc                xTaskGetIdleTaskHandle
+                0x0002140c                xTaskIncrementTick
+                0x000215a4                xTaskResumeAll
+                0x000216d0                uxTaskGetSystemState
+                0x0002185c                vTaskDelay
+                0x000218a4                vTaskDelayUntil
+                0x00021960                vTaskSwitchContext
+                0x00021a7c                vTaskSuspend
+                0x00021b04                vTaskPlaceOnEventList
+                0x00021b74                vTaskPlaceOnEventListRestricted
+                0x00021bc8                xTaskRemoveFromEventList
+                0x00021c68                vTaskSetTimeOutState
+                0x00021ca0                xTaskCheckForTimeOut
+                0x00021d44                vTaskMissedYield
+                0x00021d58                uxTaskGetTaskNumber
+                0x00021d64                vTaskSetTaskNumber
+                0x00021d70                uxTaskGetStackHighWaterMark
+                0x00021da8                xTaskGetCurrentTaskHandle
+                0x00021db8                xTaskGetSchedulerState
+                0x00021de0                vTaskPriorityInherit
+                0x00021e7c                vTaskPriorityDisinherit
+ .text          0x00021ee4      0x5c8 ./rtos/FreeRTOS/Source/soc_obj/timers.o
+                0x00021fc0                xTimerCreateTimerTask
+                0x00022034                xTimerCreate
+                0x000220a0                xTimerGenericCommand
+                0x00022418                xTimerGetTimerDaemonTaskHandle
+                0x00022448                xTimerIsTimerActive
+                0x00022468                pvTimerGetTimerID
+                0x00022470                xTimerChangeSetting
+ .text          0x000224ac       0x48 ./rtos/FreeRTOS/soc_obj/rtos_glue.o
+                0x000224ac                vApplicationIdleHook
+                0x000224b4                vAssertCalled
+                0x000224d4                vApplicationStackOverflowHook
+ .text          0x000224f4      0x248 ./rtos/soc_obj/rtos.o
+                0x000224f4                OS_Init
+                0x00022508                OS_Terminate
+                0x0002250c                OS_TaskCreate
+                0x0002253c                OS_TaskDelete
+                0x00022540                OS_StartScheduler
+                0x00022544                OS_MutexInit
+                0x00022564                OS_MutexLock
+                0x00022574                OS_MutexUnLock
+                0x00022584                OS_MsDelay
+                0x000225a0                OS_TickDelay
+                0x000225ac                OS_MsgQCreate
+                0x000225d4                OS_MsgQEnqueue
+                0x0002261c                OS_MsgQDequeue
+                0x0002265c                OS_MsgQWaitingSize
+                0x00022660                OS_TimerCreate
+                0x000226b0                OS_TimerSet
+                0x000226ec                OS_TimerStart
+                0x00022714                OS_TimerStop
+                0x00022730                OS_TimerGetData
+                0x00022734                OS_MemAlloc
+                0x00022738                OS_MemFree
+ .text          0x0002273c      0x85c /mnt/hgfs/svn_code/new/firmware/104x/smartcfg/libairkiss.a(airkiss.o)
+                0x00022768                airkiss_version
+                0x00022774                airkiss_init
+                0x000227e8                airkiss_recv
+                0x00022e9c                airkiss_get_result
+                0x00022f40                airkiss_change_channel
+ .text          0x00022f98      0x114 /opt/toolchain/gcc-arm-none-eabi-4_6-2012q1/bin/../lib/gcc/arm-none-eabi/4.6.2/libgcc.a(_udivsi3.o)
+                0x00022f98                __udivsi3
+                0x00022f98                __aeabi_uidiv
+                0x0002308c                __aeabi_uidivmod
+ .text          0x000230ac      0x148 /opt/toolchain/gcc-arm-none-eabi-4_6-2012q1/bin/../lib/gcc/arm-none-eabi/4.6.2/libgcc.a(_divsi3.o)
+                0x000230ac                __aeabi_idiv
+                0x000230ac                __divsi3
+                0x000231d4                __aeabi_idivmod
+ .text          0x000231f4        0x4 /opt/toolchain/gcc-arm-none-eabi-4_6-2012q1/bin/../lib/gcc/arm-none-eabi/4.6.2/libgcc.a(_dvmd_tls.o)
+                0x000231f4                __aeabi_ldiv0
+                0x000231f4                __aeabi_idiv0
+ .text          0x000231f8      0x41c /opt/toolchain/gcc-arm-none-eabi-4_6-2012q1/bin/../lib/gcc/arm-none-eabi/4.6.2/libgcc.a(_arm_addsubdf3.o)
+                0x000231f8                __aeabi_drsub
+                0x00023200                __aeabi_dsub
+                0x00023200                __subdf3
+                0x00023204                __adddf3
+                0x00023204                __aeabi_dadd
+                0x00023514                __aeabi_ui2d
+                0x00023514                __floatunsidf
+                0x00023538                __floatsidf
+                0x00023538                __aeabi_i2d
+                0x00023560                __extendsfdf2
+                0x00023560                __aeabi_f2d
+                0x000235a0                __aeabi_ul2d
+                0x000235a0                __floatundidf
+                0x000235b4                __floatdidf
+                0x000235b4                __aeabi_l2d
+ .text          0x00023614      0x49c /opt/toolchain/gcc-arm-none-eabi-4_6-2012q1/bin/../lib/gcc/arm-none-eabi/4.6.2/libgcc.a(_arm_muldivdf3.o)
+                0x00023614                __aeabi_dmul
+                0x00023614                __muldf3
+                0x000238a4                __aeabi_ddiv
+                0x000238a4                __divdf3
+ .text          0x00023ab0       0x54 /opt/toolchain/gcc-arm-none-eabi-4_6-2012q1/bin/../lib/gcc/arm-none-eabi/4.6.2/libgcc.a(_arm_fixunsdfsi.o)
+                0x00023ab0                __fixunsdfsi
+                0x00023ab0                __aeabi_d2uiz
+ .text          0x00023b04       0x48 /opt/toolchain/gcc-arm-none-eabi-4_6-2012q1/bin/../lib/gcc/arm-none-eabi/4.6.2/libgcc.a(_muldi3.o)
+                0x00023b04                __aeabi_lmul
+                0x00023b04                __muldi3
+ *(.rodata)
+ .rodata        0x00023b4c       0x60 ./apps/mac80211/supplicant/common/soc_obj/wpa_common.o
+ .rodata        0x00023bac      0x90c ./apps/mac80211/supplicant/crypto/soc_obj/aes-internal.o
+                0x00023bac                Te0
+                0x00023fac                rcons
+                0x00023fb6                Td4s
+                0x000240b8                Td0
+ .rodata        0x000244b8        0x8 ./apps/mac80211/supplicant/crypto/soc_obj/sha1.o
+ .rodata        0x000244c0       0x40 ./apps/mac80211/supplicant/crypto/soc_obj/sha1-internal.o
+ .rodata        0x00024500       0x13 ./apps/mac80211/supplicant/drivers/soc_obj/driver_cabrio.o
+ .rodata        0x00024513       0x26 ./apps/mac80211/supplicant/rsn_supp/soc_obj/wpa_ie.o
+ .rodata        0x00024539        0x7 ./apps/mac80211/supplicant/soc_obj/events.o
+ .rodata        0x00024540       0x24 ./apps/mac80211/supplicant/soc_obj/wpa_supplicant.o
+ .rodata        0x00024564      0x18c ./apps/mac80211/soc_obj/cmd_engine.o
+                0x00024564                HostCmdMap
+ .rodata        0x000246f0      0x1e4 ./apps/mac80211/soc_obj/soft-main.o
+                0x000247f8                sgSoftMac_Func
+ .rodata        0x000248d4        0xd ./apps/mac80211/soc_obj/sta_info.o
+ *fill*         0x000248e1        0x3 00
+ .rodata        0x000248e4       0x24 ./apps/mac80211/soc_obj/SmartConfig.o
+                0x000248e4                g_airkscfg
+ .rodata        0x00024908       0xb8 ./apps/mac80211/soc_obj/mlme.o
+                0x00024980                MGMT_RxHandler
+ .rodata        0x000249c0       0x2b ./apps/mac80211/soc_obj/MLME_Task.o
+ .rodata        0x000249eb       0x34 ./apps/mac80211/soc_obj/MLME_Scan.o
+ .rodata        0x00024a1f       0x1f ./apps/mac80211/soc_obj/MLME_Join.o
+ .rodata        0x00024a3e       0x10 ./apps/mac80211/soc_obj/MLME_Leave.o
+ .rodata        0x00024a4e       0x22 ./apps/mac80211/soc_obj/edca.o
+ .rodata        0x00024a70       0xdc ./apps/mac80211/soc_obj/pide_algo.o
+ .rodata        0x00024b4c        0x9 ./apps/soc_obj/app_main.o
+ .rodata        0x00024b55       0x44 ./apps/soc_obj/msgevt.o
+ .rodata        0x00024b99        0xf ./apps/soc_obj/pbuf.o
+ .rodata        0x00024ba8       0x63 ./apps/soc_obj/soc_log.o
+ .rodata        0x00024c0b        0xd ./bsp/soc_obj/irq.o
+ .rodata        0x00024c18       0xc8 ./cli/cmds/soc_obj/cli_cmd.o
+                0x00024c2c                gCliCmdTable
+ .rodata        0x00024ce0       0x16 ./driver/beacon/soc_obj/drv_beacon.o
+ *fill*         0x00024cf6        0x2 00
+ .rodata        0x00024cf8       0x14 ./driver/edca/soc_obj/drv_edca.o
+                0x00024cf8                edca_reg_addr
+ .rodata        0x00024d0c       0x15 ./driver/hwmac/soc_obj/drv_mac.o
+ *fill*         0x00024d21        0x3 00
+ .rodata        0x00024d24      0x390 ./driver/phy/soc_obj/drv_phy.o
+                0x00024d24                tssi_tbl_gain
+                0x00024ed4                phy_cali_config_tssi
+                0x00024eec                phy_cali_config_rxiq
+                0x00024f04                phy_cali_config_txiq
+                0x00024f1c                phy_cali_config_txlo
+                0x00024f34                phy_cali_config_rxrc
+                0x00024f4c                phy_cali_config_rxdc
+ .rodata        0x000250b4      0x1a0 ./driver/pmu/soc_obj/drv_pmu.o
+                0x000250b4                tbl_pmu_pad_cfg
+ .rodata        0x00025254       0x18 ./driver/uart/soc_obj/drv_uart.o
+ .rodata        0x0002526c       0x1c ./lib/soc_obj/ssv_lib.o
+ .rodata        0x00025288       0x1d ./lib/soc_obj/lib-impl.o
+ .rodata        0x000252a5      0x1a9 ./rtos/FreeRTOS/Source/soc_obj/queue.o
+ .rodata        0x0002544e      0x167 ./rtos/FreeRTOS/Source/soc_obj/tasks.o
+ .rodata        0x000255b5       0x88 ./rtos/FreeRTOS/Source/soc_obj/timers.o
+ .rodata        0x0002563d      0x100 /mnt/hgfs/svn_code/new/firmware/104x/smartcfg/libairkiss.a(airkiss.o)
+ *(.rodata*)
+ .rodata.str1.1
+                0x0002573d       0x24 ./version.o
+ .rodata.str1.1
+                0x00025761       0x2b ./apps/mac80211/supplicant/common/soc_obj/wpa_common.o
+                                 0x30 (size before relaxing)
+ .rodata.str1.1
+                0x0002578c      0x117 ./apps/mac80211/supplicant/drivers/soc_obj/driver_cabrio.o
+ .rodata.str1.1
+                0x000258a3      0x113 ./apps/mac80211/supplicant/rsn_supp/soc_obj/wpa.o
+ .rodata.str1.1
+                0x000259b6       0xab ./apps/mac80211/supplicant/rsn_supp/soc_obj/wpa_ie.o
+ .rodata.str1.1
+                0x00000000       0xab ./apps/mac80211/supplicant/utils/soc_obj/common.o
+                                  0xa (size before relaxing)
+ .rodata.str1.1
+                0x00025a61       0x96 ./apps/mac80211/supplicant/utils/soc_obj/eloop_rtos.o
+ .rodata.str1.1
+                0x00025af7       0x6e ./apps/mac80211/supplicant/soc_obj/wpa_supplicant.o
+                                 0x76 (size before relaxing)
+ .rodata.str1.1
+                0x00025b65      0x52b ./apps/mac80211/soc_obj/cmd_engine.o
+                                0x547 (size before relaxing)
+ .rodata.str1.1
+                0x00026090      0x3e4 ./apps/mac80211/soc_obj/soft-main.o
+                                0x425 (size before relaxing)
+ .rodata.str1.1
+                0x00026474      0x17a ./apps/mac80211/soc_obj/sta_info.o
+ .rodata.str1.1
+                0x000265ee      0x12a ./apps/mac80211/soc_obj/SmartConfig.o
+                                0x156 (size before relaxing)
+ .rodata.str1.1
+                0x00026718      0x7a6 ./apps/mac80211/soc_obj/mlme.o
+                                0x7d2 (size before relaxing)
+ .rodata.str1.1
+                0x00026ebe      0x105 ./apps/mac80211/soc_obj/MLME_Task.o
+                                0x19b (size before relaxing)
+ .rodata.str1.1
+                0x00026fc3       0x59 ./apps/mac80211/soc_obj/MLME_Scan.o
+                                 0xd3 (size before relaxing)
+ .rodata.str1.1
+                0x0002701c       0xe0 ./apps/mac80211/soc_obj/MLME_Join.o
+                                0x12d (size before relaxing)
+ .rodata.str1.1
+                0x000270fc       0x18 ./apps/mac80211/soc_obj/MLME_Leave.o
+                                 0x44 (size before relaxing)
+ .rodata.str1.1
+                0x00027114       0xdb ./apps/mac80211/soc_obj/edca.o
+                                 0xed (size before relaxing)
+ .rodata.str1.1
+                0x000271ef      0x149 ./apps/mac80211/soc_obj/MLME_PwrSaving.o
+ .rodata.str1.1
+                0x00027338      0xa49 ./apps/mac80211/soc_obj/pide_algo.o
+                                0xa65 (size before relaxing)
+ .rodata.str1.1
+                0x00027d81      0x40c ./apps/soc_obj/app_main.o
+                                0x42f (size before relaxing)
+ .rodata.str1.1
+                0x0002818d       0xeb ./apps/soc_obj/msgevt.o
+ .rodata.str1.1
+                0x00028278       0x4f ./apps/soc_obj/pbuf.o
+ .rodata.str1.1
+                0x000282c7      0x470 ./apps/soc_obj/soc_log.o
+                                0x47d (size before relaxing)
+ .rodata.str1.1
+                0x00028737       0x1e ./bsp/soc_obj/bsp.o
+ .rodata.str1.1
+                0x00028755       0x29 ./bsp/soc_obj/cpu.o
+ .rodata.str1.1
+                0x0002877e       0xcf ./bsp/soc_obj/irq.o
+                                 0xd1 (size before relaxing)
+ .rodata.str1.1
+                0x0002884d      0xc0b ./cli/cmds/soc_obj/cli_cmd.o
+                                0xc44 (size before relaxing)
+ .rodata.str1.1
+                0x00029458       0x5f ./cli/cmds/soc_obj/cli_cmd_monitor.o
+                                 0x62 (size before relaxing)
+ .rodata.str1.1
+                0x000294b7       0x36 ./cli/soc_obj/cli.o
+                                 0x3b (size before relaxing)
+ .rodata.str1.1
+                0x000294ed      0x577 ./driver/ampdu/soc_obj/drv_ampdu.o
+                                0x5ba (size before relaxing)
+ .rodata.str1.1
+                0x00029a64        0xd ./driver/beacon/soc_obj/drv_beacon.o
+                                 0x3e (size before relaxing)
+ .rodata.str1.1
+                0x00029a71      0x238 ./driver/hwmac/soc_obj/drv_mac.o
+                                0x2f9 (size before relaxing)
+ .rodata.str1.1
+                0x00029ca9       0x77 ./driver/phy/soc_obj/drv_phy.o
+ .rodata.str1.1
+                0x00029d20       0x18 ./driver/security/soc_obj/drv_security.o
+ .rodata.str1.1
+                0x00029d38        0xb ./driver/uart/soc_obj/drv_uart.o
+                                 0x38 (size before relaxing)
+ .rodata.str1.1
+                0x00029d43      0x44f ./lib/soc_obj/ssv_lib.o
+                                0x469 (size before relaxing)
+ .rodata.str1.1
+                0x0002a192       0x85 ./lib/soc_obj/lib-impl.o
+ .rodata.str1.1
+                0x0002a217        0x5 ./rtos/FreeRTOS/Source/soc_obj/tasks.o
+ .rodata.str1.1
+                0x0002a21c        0x8 ./rtos/FreeRTOS/Source/soc_obj/timers.o
+ .rodata.str1.1
+                0x0002a224       0x4c ./rtos/FreeRTOS/soc_obj/rtos_glue.o
+ .rodata.str1.1
+                0x0002a270       0x46 /mnt/hgfs/svn_code/new/firmware/104x/smartcfg/libairkiss.a(airkiss.o)
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+                0x0002a2b6                __end_of_text__ = .
+
+.vfp11_veneer   0x0002a2b8        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x0002a2b8        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.text.unlikely  0x0002a2b8      0x1d4
+ .text.unlikely
+                0x0002a2b8      0x1d4 ./apps/mac80211/supplicant/rsn_supp/soc_obj/wpa.o
+
+.data           0x0002a48c      0x590
+                0x0002a48c                __data_beg__ = .
+                0x0002a2b6                __data_beg_src__ = __end_of_text__
+ *(.data)
+ .data          0x0002a48c        0xc ./version.o
+                0x0002a48c                date
+                0x0002a490                version
+                0x0002a494                rlsversion
+ .data          0x0002a498        0x0 ./apps/mac80211/supplicant/common/soc_obj/wpa_common.o
+ .data          0x0002a498        0x0 ./apps/mac80211/supplicant/common/soc_obj/defs.o
+ .data          0x0002a498        0x0 ./apps/mac80211/supplicant/crypto/soc_obj/aes-internal.o
+ .data          0x0002a498        0x0 ./apps/mac80211/supplicant/crypto/soc_obj/aes-internal-dec.o
+ .data          0x0002a498        0x0 ./apps/mac80211/supplicant/crypto/soc_obj/aes-internal-enc.o
+ .data          0x0002a498        0x0 ./apps/mac80211/supplicant/crypto/soc_obj/aes-unwrap.o
+ .data          0x0002a498        0x0 ./apps/mac80211/supplicant/crypto/soc_obj/crypto_internal.o
+ .data          0x0002a498        0x0 ./apps/mac80211/supplicant/crypto/soc_obj/md5.o
+ .data          0x0002a498        0x0 ./apps/mac80211/supplicant/crypto/soc_obj/md5-internal.o
+ .data          0x0002a498        0x0 ./apps/mac80211/supplicant/crypto/soc_obj/rc4.o
+ .data          0x0002a498        0x0 ./apps/mac80211/supplicant/crypto/soc_obj/sha1.o
+ .data          0x0002a498        0x0 ./apps/mac80211/supplicant/crypto/soc_obj/sha1-internal.o
+ .data          0x0002a498        0x0 ./apps/mac80211/supplicant/crypto/soc_obj/sha1-pbkdf2.o
+ .data          0x0002a498        0x0 ./apps/mac80211/supplicant/drivers/soc_obj/driver_cabrio.o
+ .data          0x0002a498        0x0 ./apps/mac80211/supplicant/rsn_supp/soc_obj/wpa.o
+ .data          0x0002a498        0x0 ./apps/mac80211/supplicant/rsn_supp/soc_obj/wpa_ie.o
+ .data          0x0002a498        0x0 ./apps/mac80211/supplicant/utils/soc_obj/common.o
+ .data          0x0002a498        0x0 ./apps/mac80211/supplicant/utils/soc_obj/eloop_rtos.o
+ .data          0x0002a498        0x0 ./apps/mac80211/supplicant/utils/soc_obj/os_rtos.o
+ .data          0x0002a498        0x8 ./apps/mac80211/supplicant/utils/soc_obj/wpa_debug.o
+                0x0002a498                wpa_debug_show_keys
+                0x0002a49c                wpa_debug_level
+ .data          0x0002a4a0        0x0 ./apps/mac80211/supplicant/soc_obj/events.o
+ .data          0x0002a4a0        0x0 ./apps/mac80211/supplicant/soc_obj/wpa_supplicant.o
+ .data          0x0002a4a0        0x0 ./apps/mac80211/supplicant/soc_obj/wpas_glue.o
+ .data          0x0002a4a0        0x0 ./apps/mac80211/soc_obj/cmd_engine.o
+ .data          0x0002a4a0        0x0 ./apps/mac80211/soc_obj/soft-main.o
+ .data          0x0002a4a0        0x0 ./apps/mac80211/soc_obj/sta_info.o
+ .data          0x0002a4a0       0x18 ./apps/mac80211/soc_obj/util.o
+                0x0002a4a0                gBitRates
+ .data          0x0002a4b8        0x0 ./apps/mac80211/soc_obj/SmartConfig.o
+ .data          0x0002a4b8        0x4 ./apps/mac80211/soc_obj/mlme.o
+                0x0002a4b8                g_null_frame_seq
+                0x0002a4ba                rcpi_update_count
+ .data          0x0002a4bc        0x1 ./apps/mac80211/soc_obj/MLME_Task.o
+                0x0002a4bc                gBeaconListening
+ .data          0x0002a4bd        0x0 ./apps/mac80211/soc_obj/MLME_Scan.o
+ .data          0x0002a4bd        0x0 ./apps/mac80211/soc_obj/MLME_Join.o
+ .data          0x0002a4bd        0x0 ./apps/mac80211/soc_obj/MLME_Leave.o
+ .data          0x0002a4bd        0x1 ./apps/mac80211/soc_obj/edca.o
+                0x0002a4bd                scrambler_seed
+ .data          0x0002a4be        0x0 ./apps/mac80211/soc_obj/MLME_PwrSaving.o
+ .data          0x0002a4be        0x0 ./apps/mac80211/soc_obj/edca_queue.o
+ *fill*         0x0002a4be        0x2 00
+ .data          0x0002a4c0       0xac ./apps/mac80211/soc_obj/pide_algo.o
+                0x0002a4c0                ssv6200_phy_rate
+ .data          0x0002a56c        0x0 ./apps/mac80211/soc_obj/psk_cache.o
+ .data          0x0002a56c        0x0 ./apps/mac80211/soc_obj/ssv_pkt.o
+ .data          0x0002a56c       0x48 ./apps/soc_obj/app_main.o
+                0x0002a56c                g_soc_task_info
+ .data          0x0002a5b4        0x0 ./apps/soc_obj/msgevt.o
+ .data          0x0002a5b4        0x0 ./apps/soc_obj/pbuf.o
+ .data          0x0002a5b4        0x6 ./apps/soc_obj/soc_global.o
+                0x0002a5b4                WILDCARD_ADDR
+ *fill*         0x0002a5ba        0x2 00
+ .data          0x0002a5bc       0x60 ./apps/soc_obj/soc_log.o
+                0x0002a5bc                g_log_lvl_tag
+                0x0002a5dc                g_log_mod_tag
+                0x0002a610                g_magic_u32
+                0x0002a614                g_magic_str
+ .data          0x0002a61c        0x0 ./bsp/soc_obj/boot.o
+ .data          0x0002a61c        0x0 ./bsp/soc_obj/bsp.o
+ .data          0x0002a61c        0x0 ./bsp/soc_obj/cpu.o
+ .data          0x0002a61c        0x1 ./bsp/soc_obj/irq.o
+ .data          0x0002a61d        0x0 ./bsp/soc_obj/serial.o
+ *fill*         0x0002a61d        0x3 00
+ .data          0x0002a620        0x8 ./cli/cmds/soc_obj/cli_cmd.o
+ .data          0x0002a628        0x0 ./cli/cmds/soc_obj/cli_cmd_monitor.o
+ .data          0x0002a628        0x0 ./cli/soc_obj/cli.o
+ .data          0x0002a628       0x18 ./driver/ampdu/soc_obj/drv_ampdu.o
+                0x0002a628                AMPDU_TX_LastRetryBModeOnce
+                0x0002a629                AMPDU_TX_LastRetryBModeRate
+                0x0002a62a                AMPDU_TX_LastRetryInBMode
+                0x0002a62c                bmode
+                0x0002a63c                AMPDU_TX_MaxRetry
+                0x0002a63d                AMPDU_TX_BlockSessionAtNotNmodeRate
+                0x0002a63e                AMPDU_TX_Maintry
+                0x0002a63f                AMPDU_RX_BUF_SIZE
+ .data          0x0002a640        0x0 ./driver/beacon/soc_obj/drv_beacon.o
+ .data          0x0002a640        0x0 ./driver/dbg_timer/soc_obj/dbg_timer.o
+ .data          0x0002a640        0x0 ./driver/edca/soc_obj/drv_edca.o
+ .data          0x0002a640        0x0 ./driver/hwmac/soc_obj/drv_mac.o
+ .data          0x0002a640        0x0 ./driver/idmanage/soc_obj/drv_idmanage.o
+ .data          0x0002a640        0x0 ./driver/mbox/soc_obj/drv_mbox.o
+ .data          0x0002a640        0x0 ./driver/nav/soc_obj/drv_nav.o
+ .data          0x0002a640      0x3d4 ./driver/phy/soc_obj/drv_phy.o
+                0x0002a640                g_rf_config
+                0x0002a64c                rtbl_cali_tssi
+                0x0002a668                rtbl_cali_rxrc
+                0x0002a674                rtbl_cali_txiq
+                0x0002a688                rtbl_cali_txlo
+                0x0002a69c                rtbl_cali_rxiq
+                0x0002a6b0                rg_rxdc_set_i
+                0x0002a6f0                rtbl_cali_rxdc
+                0x0002a7f4                rg_rxdc_set_q
+                0x0002a834                tx_loopback
+                0x0002a974                cali_info_tbl
+ .data          0x0002aa14        0x0 ./driver/pmu/soc_obj/drv_pmu.o
+ .data          0x0002aa14        0x0 ./driver/random/soc_obj/drv_random.o
+ .data          0x0002aa14        0x0 ./driver/rtc/soc_obj/drv_rtc.o
+ .data          0x0002aa14        0x0 ./driver/security/soc_obj/drv_security.o
+ .data          0x0002aa14        0x0 ./driver/timer/soc_obj/drv_timer.o
+ .data          0x0002aa14        0x0 ./driver/uart/soc_obj/drv_uart.o
+ .data          0x0002aa14        0x0 ./lib/soc_obj/ssv_lib.o
+ .data          0x0002aa14        0x0 ./lib/soc_obj/lib-impl.o
+ .data          0x0002aa14        0x0 ./rtos/FreeRTOS/Source/portable/GCC/SSV6200/soc_obj/port.o
+ .data          0x0002aa14        0x4 ./rtos/FreeRTOS/Source/portable/GCC/SSV6200/soc_obj/portISR.o
+                0x0002aa14                ulCriticalNesting
+ .data          0x0002aa18        0x0 ./rtos/FreeRTOS/Source/portable/MemMang/soc_obj/heap_3.o
+ .data          0x0002aa18        0x0 ./rtos/FreeRTOS/Source/soc_obj/croutine.o
+ .data          0x0002aa18        0x0 ./rtos/FreeRTOS/Source/soc_obj/list.o
+ .data          0x0002aa18        0x0 ./rtos/FreeRTOS/Source/soc_obj/queue.o
+ .data          0x0002aa18        0x4 ./rtos/FreeRTOS/Source/soc_obj/tasks.o
+ .data          0x0002aa1c        0x0 ./rtos/FreeRTOS/Source/soc_obj/timers.o
+ .data          0x0002aa1c        0x0 ./rtos/FreeRTOS/soc_obj/rtos_glue.o
+ .data          0x0002aa1c        0x0 ./rtos/soc_obj/rtos.o
+ .data          0x0002aa1c        0x0 /mnt/hgfs/svn_code/new/firmware/104x/smartcfg/libairkiss.a(airkiss.o)
+ .data          0x0002aa1c        0x0 /opt/toolchain/gcc-arm-none-eabi-4_6-2012q1/bin/../lib/gcc/arm-none-eabi/4.6.2/libgcc.a(_udivsi3.o)
+ .data          0x0002aa1c        0x0 /opt/toolchain/gcc-arm-none-eabi-4_6-2012q1/bin/../lib/gcc/arm-none-eabi/4.6.2/libgcc.a(_divsi3.o)
+ .data          0x0002aa1c        0x0 /opt/toolchain/gcc-arm-none-eabi-4_6-2012q1/bin/../lib/gcc/arm-none-eabi/4.6.2/libgcc.a(_dvmd_tls.o)
+ .data          0x0002aa1c        0x0 /opt/toolchain/gcc-arm-none-eabi-4_6-2012q1/bin/../lib/gcc/arm-none-eabi/4.6.2/libgcc.a(_arm_addsubdf3.o)
+ .data          0x0002aa1c        0x0 /opt/toolchain/gcc-arm-none-eabi-4_6-2012q1/bin/../lib/gcc/arm-none-eabi/4.6.2/libgcc.a(_arm_muldivdf3.o)
+ .data          0x0002aa1c        0x0 /opt/toolchain/gcc-arm-none-eabi-4_6-2012q1/bin/../lib/gcc/arm-none-eabi/4.6.2/libgcc.a(_arm_fixunsdfsi.o)
+ .data          0x0002aa1c        0x0 /opt/toolchain/gcc-arm-none-eabi-4_6-2012q1/bin/../lib/gcc/arm-none-eabi/4.6.2/libgcc.a(_muldi3.o)
+                0x0002aa1c                __data_end__ = .
+
+.dmsg           0x0002aa1c        0x0
+                0x0002aa1c                __dmsg_beg__ = .
+ *(.dbgmsg)
+                0x0002aa1c                __dmsg_end__ = .
+
+.bss            0x0002aa20     0x1a2d
+                0x0002aa20                __bss_beg__ = .
+ *(.bss)
+ .bss           0x0002aa20        0x0 ./version.o
+ .bss           0x0002aa20        0x0 ./apps/mac80211/supplicant/common/soc_obj/wpa_common.o
+ .bss           0x0002aa20        0x0 ./apps/mac80211/supplicant/common/soc_obj/defs.o
+ .bss           0x0002aa20        0x0 ./apps/mac80211/supplicant/crypto/soc_obj/aes-internal.o
+ .bss           0x0002aa20        0x0 ./apps/mac80211/supplicant/crypto/soc_obj/aes-internal-dec.o
+ .bss           0x0002aa20        0x0 ./apps/mac80211/supplicant/crypto/soc_obj/aes-internal-enc.o
+ .bss           0x0002aa20        0x0 ./apps/mac80211/supplicant/crypto/soc_obj/aes-unwrap.o
+ .bss           0x0002aa20        0x0 ./apps/mac80211/supplicant/crypto/soc_obj/crypto_internal.o
+ .bss           0x0002aa20        0x0 ./apps/mac80211/supplicant/crypto/soc_obj/md5.o
+ .bss           0x0002aa20        0x0 ./apps/mac80211/supplicant/crypto/soc_obj/md5-internal.o
+ .bss           0x0002aa20        0x0 ./apps/mac80211/supplicant/crypto/soc_obj/rc4.o
+ .bss           0x0002aa20       0x80 ./apps/mac80211/supplicant/crypto/soc_obj/sha1.o
+ .bss           0x0002aaa0        0x0 ./apps/mac80211/supplicant/crypto/soc_obj/sha1-internal.o
+ .bss           0x0002aaa0        0x0 ./apps/mac80211/supplicant/crypto/soc_obj/sha1-pbkdf2.o
+ .bss           0x0002aaa0        0x0 ./apps/mac80211/supplicant/drivers/soc_obj/driver_cabrio.o
+ .bss           0x0002aaa0      0x174 ./apps/mac80211/supplicant/rsn_supp/soc_obj/wpa.o
+ .bss           0x0002ac14        0x0 ./apps/mac80211/supplicant/rsn_supp/soc_obj/wpa_ie.o
+ .bss           0x0002ac14       0x21 ./apps/mac80211/supplicant/utils/soc_obj/common.o
+ .bss           0x0002ac35        0x1 ./apps/mac80211/supplicant/utils/soc_obj/eloop_rtos.o
+ .bss           0x0002ac36        0x0 ./apps/mac80211/supplicant/utils/soc_obj/os_rtos.o
+ *fill*         0x0002ac36        0x2 00
+ .bss           0x0002ac38        0x4 ./apps/mac80211/supplicant/utils/soc_obj/wpa_debug.o
+                0x0002ac38                wpa_debug_timestamp
+ .bss           0x0002ac3c        0x0 ./apps/mac80211/supplicant/soc_obj/events.o
+ .bss           0x0002ac3c       0x48 ./apps/mac80211/supplicant/soc_obj/wpa_supplicant.o
+ .bss           0x0002ac84        0xc ./apps/mac80211/supplicant/soc_obj/wpas_glue.o
+ .bss           0x0002ac90       0x18 ./apps/mac80211/soc_obj/cmd_engine.o
+                0x0002ac91                sconfig_user_mode
+                0x0002ac92                recover_enable
+                0x0002ac93                recover_mechanism
+                0x0002ac94                bcn_back
+                0x0002ac98                last_bcn_ptr
+                0x0002aca0                last_seq_no
+ .bss           0x0002aca8       0x20 ./apps/mac80211/soc_obj/soft-main.o
+                0x0002acc6                g_highPriorityQueue
+ .bss           0x0002acc8        0x8 ./apps/mac80211/soc_obj/sta_info.o
+                0x0002acc8                gDevInfo
+                0x0002accc                g6200StaInfo
+ .bss           0x0002acd0        0x0 ./apps/mac80211/soc_obj/util.o
+ .bss           0x0002acd0        0x2 ./apps/mac80211/soc_obj/SmartConfig.o
+                0x0002acd0                enSCstat
+                0x0002acd1                g_retryCountAfterLock
+ *fill*         0x0002acd2        0x2 00
+ .bss           0x0002acd4       0x18 ./apps/mac80211/soc_obj/mlme.o
+                0x0002acd4                gBSSID
+                0x0002acda                supplicant_bypass
+                0x0002ace0                bkn_update_time
+                0x0002ace4                rcpi_sum
+                0x0002ace8                rcpi_counter
+ .bss           0x0002acec        0x1 ./apps/mac80211/soc_obj/MLME_Task.o
+                0x0002acec                mlme_cmd_running
+ .bss           0x0002aced        0x0 ./apps/mac80211/soc_obj/MLME_Scan.o
+ .bss           0x0002aced        0x0 ./apps/mac80211/soc_obj/MLME_Join.o
+ .bss           0x0002aced        0x0 ./apps/mac80211/soc_obj/MLME_Leave.o
+ .bss           0x0002aced        0x0 ./apps/mac80211/soc_obj/edca.o
+ *fill*         0x0002aced        0x3 00
+ .bss           0x0002acf0        0x8 ./apps/mac80211/soc_obj/MLME_PwrSaving.o
+ .bss           0x0002acf8        0x0 ./apps/mac80211/soc_obj/edca_queue.o
+ .bss           0x0002acf8       0x18 ./apps/mac80211/soc_obj/pide_algo.o
+                0x0002acfe                g_prb_pkt_enable
+                0x0002ad04                force_up_down
+                0x0002ad08                show_probepkt_seq
+                0x0002ad09                g_force_rtscts
+                0x0002ad0c                g_drate_endian
+ .bss           0x0002ad10      0x210 ./apps/mac80211/soc_obj/psk_cache.o
+ .bss           0x0002af20        0x0 ./apps/mac80211/soc_obj/ssv_pkt.o
+ .bss           0x0002af20        0x0 ./apps/soc_obj/app_main.o
+ .bss           0x0002af20        0x8 ./apps/soc_obj/msgevt.o
+ .bss           0x0002af28        0x4 ./apps/soc_obj/pbuf.o
+ .bss           0x0002af2c        0xc ./apps/soc_obj/soc_global.o
+                0x0002af2c                gMLMETaskCount
+                0x0002af30                gSoftTaskCount
+                0x0002af34                gAckPolicyErrorCount
+ .bss           0x0002af38        0x0 ./apps/soc_obj/soc_log.o
+ .bss           0x0002af38        0x0 ./bsp/soc_obj/boot.o
+ .bss           0x0002af38        0x0 ./bsp/soc_obj/bsp.o
+ .bss           0x0002af38       0x48 ./bsp/soc_obj/cpu.o
+                0x0002af38                gCpuRegs
+ .bss           0x0002af80       0x14 ./bsp/soc_obj/irq.o
+                0x0002af8c                uPreemptiveTickTrigger
+                0x0002af90                do_irq_count
+ .bss           0x0002af94       0x14 ./bsp/soc_obj/serial.o
+                0x0002afa4                gOsInFatal
+ .bss           0x0002afa8        0x0 ./cli/cmds/soc_obj/cli_cmd.o
+ .bss           0x0002afa8       0x10 ./cli/cmds/soc_obj/cli_cmd_monitor.o
+ .bss           0x0002afb8       0x74 ./cli/soc_obj/cli.o
+ .bss           0x0002b02c       0xd8 ./driver/ampdu/soc_obj/drv_ampdu.o
+                0x0002b0ac                ampdu_tx_drop_count
+                0x0002b0b0                AMPDU_TX_ENABLE
+                0x0002b0c8                ampdu_action_frame_cnt
+                0x0002b0cc                ampdu_tx_timeout_count
+                0x0002b0d0                ampdu_tx_jamout_count
+                0x0002b0d4                ampdu_tx_fix_current_rate
+                0x0002b0d8                ampdu_tx_timeout_miss_count
+                0x0002b0dc                ampdu_tx_ba_match_last_ampdu_new_count
+                0x0002b0e0                ampdu_tx_ba_match_last_ampdu_retried_count
+                0x0002b0e4                ampdu_tx_ba_count
+                0x0002b0e8                ampdu_tx_redundance_count
+                0x0002b0ec                ampdu_tx_miss_ba_count
+                0x0002b0f4                ampdu_tx_txreport_received_count
+                0x0002b0f8                ampdu_tx_new_txreport_match_BA_count
+                0x0002b0fc                ampdu_tx_retry_txreport_match_BA_count
+                0x0002b100                AMPDU_RX_ENABLE
+ .bss           0x0002b104        0x0 ./driver/beacon/soc_obj/drv_beacon.o
+ *fill*         0x0002b104        0x4 00
+ .bss           0x0002b108       0x88 ./driver/dbg_timer/soc_obj/dbg_timer.o
+ .bss           0x0002b190        0x0 ./driver/edca/soc_obj/drv_edca.o
+ .bss           0x0002b190        0x4 ./driver/hwmac/soc_obj/drv_mac.o
+ .bss           0x0002b194        0x0 ./driver/idmanage/soc_obj/drv_idmanage.o
+ .bss           0x0002b194        0x0 ./driver/mbox/soc_obj/drv_mbox.o
+ .bss           0x0002b194        0x0 ./driver/nav/soc_obj/drv_nav.o
+ .bss           0x0002b194       0x28 ./driver/phy/soc_obj/drv_phy.o
+                0x0002b194                rtbl_temperature
+                0x0002b198                bIPDEnable
+                0x0002b199                ipd_channel_touch
+                0x0002b19c                def_setting_CE01000C
+                0x0002b1a0                def_setting_CE010030
+                0x0002b1a4                pFirmware_rf_setting
+                0x0002b1a8                pFirmware_phy_setting
+                0x0002b1ac                firmware_rf_setting_len
+                0x0002b1b0                firmware_phy_setting_len
+                0x0002b1b4                firmware_rf_temper_setting_len
+                0x0002b1b8                def_setting_CE010008
+ .bss           0x0002b1bc        0x0 ./driver/pmu/soc_obj/drv_pmu.o
+ .bss           0x0002b1bc        0x0 ./driver/random/soc_obj/drv_random.o
+ .bss           0x0002b1bc        0x0 ./driver/rtc/soc_obj/drv_rtc.o
+ .bss           0x0002b1bc        0x0 ./driver/security/soc_obj/drv_security.o
+ .bss           0x0002b1bc        0x0 ./driver/timer/soc_obj/drv_timer.o
+ .bss           0x0002b1bc        0x0 ./driver/uart/soc_obj/drv_uart.o
+ .bss           0x0002b1bc        0x3 ./lib/soc_obj/ssv_lib.o
+                0x0002b1bc                g_txQueueMapping
+ .bss           0x0002b1bf        0x0 ./lib/soc_obj/lib-impl.o
+ .bss           0x0002b1bf        0x0 ./rtos/FreeRTOS/Source/portable/GCC/SSV6200/soc_obj/port.o
+ .bss           0x0002b1bf        0x0 ./rtos/FreeRTOS/Source/portable/GCC/SSV6200/soc_obj/portISR.o
+ .bss           0x0002b1bf        0x0 ./rtos/FreeRTOS/Source/portable/MemMang/soc_obj/heap_3.o
+ *fill*         0x0002b1bf        0x1 00
+ .bss           0x0002b1c0       0x80 ./rtos/FreeRTOS/Source/soc_obj/croutine.o
+                0x0002b1c0                pxCurrentCoRoutine
+ .bss           0x0002b240        0x0 ./rtos/FreeRTOS/Source/soc_obj/list.o
+ .bss           0x0002b240        0x0 ./rtos/FreeRTOS/Source/soc_obj/queue.o
+ .bss           0x0002b240       0xec ./rtos/FreeRTOS/Source/soc_obj/tasks.o
+                0x0002b240                pxCurrentTCB
+ .bss           0x0002b32c       0x3c ./rtos/FreeRTOS/Source/soc_obj/timers.o
+ .bss           0x0002b368        0x0 ./rtos/FreeRTOS/soc_obj/rtos_glue.o
+ .bss           0x0002b368        0x1 ./rtos/soc_obj/rtos.o
+                0x0002b368                gHigherPrioTaskReady
+ .bss           0x0002b369        0x0 /mnt/hgfs/svn_code/new/firmware/104x/smartcfg/libairkiss.a(airkiss.o)
+ .bss           0x0002b369        0x0 /opt/toolchain/gcc-arm-none-eabi-4_6-2012q1/bin/../lib/gcc/arm-none-eabi/4.6.2/libgcc.a(_udivsi3.o)
+ .bss           0x0002b369        0x0 /opt/toolchain/gcc-arm-none-eabi-4_6-2012q1/bin/../lib/gcc/arm-none-eabi/4.6.2/libgcc.a(_divsi3.o)
+ .bss           0x0002b369        0x0 /opt/toolchain/gcc-arm-none-eabi-4_6-2012q1/bin/../lib/gcc/arm-none-eabi/4.6.2/libgcc.a(_dvmd_tls.o)
+ .bss           0x0002b369        0x0 /opt/toolchain/gcc-arm-none-eabi-4_6-2012q1/bin/../lib/gcc/arm-none-eabi/4.6.2/libgcc.a(_arm_addsubdf3.o)
+ .bss           0x0002b369        0x0 /opt/toolchain/gcc-arm-none-eabi-4_6-2012q1/bin/../lib/gcc/arm-none-eabi/4.6.2/libgcc.a(_arm_muldivdf3.o)
+ .bss           0x0002b369        0x0 /opt/toolchain/gcc-arm-none-eabi-4_6-2012q1/bin/../lib/gcc/arm-none-eabi/4.6.2/libgcc.a(_arm_fixunsdfsi.o)
+ .bss           0x0002b369        0x0 /opt/toolchain/gcc-arm-none-eabi-4_6-2012q1/bin/../lib/gcc/arm-none-eabi/4.6.2/libgcc.a(_muldi3.o)
+ *fill*         0x0002b369        0x3 00
+ COMMON         0x0002b36c      0x1bd ./apps/mac80211/supplicant/common/soc_obj/wpa_common.o
+                0x0002b36c                phy_cali_config_papd
+                0x0002b384                gCmdHistoryIdx
+                0x0002b388                g_log_mutex
+                0x0002b38c                gCmdHistoryBuffer
+                0x0002b521                EN_RX_DATA_QUEUE_ID
+                0x0002b522                EN_TX_DATA_QUEUE_ID
+                0x0002b524                g_dbg_mutex
+                0x0002b528                gCmdHistoryCnt
+ *fill*         0x0002b529        0x3 00
+ COMMON         0x0002b52c       0x28 ./apps/mac80211/supplicant/utils/soc_obj/eloop_rtos.o
+                0x0002b52c                timeout
+ COMMON         0x0002b554        0x4 ./apps/mac80211/supplicant/soc_obj/wpa_supplicant.o
+                0x0002b554                wpa_supplicant_event
+ COMMON         0x0002b558       0x28 ./apps/mac80211/soc_obj/cmd_engine.o
+                0x0002b558                g_bcn_info
+                0x0002b564                self_bcn_st
+                0x0002b568                sg_soc_evt_seq_no
+                0x0002b56c                recover_timer
+                0x0002b570                STRUCT_PACKED
+                0x0002b574                ap_calc_pmk_data
+                0x0002b57c                null_data_status
+ COMMON         0x0002b580        0x4 ./apps/mac80211/soc_obj/sta_info.o
+                0x0002b580                staInfoMutex
+ COMMON         0x0002b584      0x104 ./apps/mac80211/soc_obj/SmartConfig.o
+                0x0002b584                sreq
+                0x0002b58c                my_result
+                0x0002b5a0                g_smtcfg
+ COMMON         0x0002b688        0x8 ./apps/mac80211/soc_obj/mlme.o
+                0x0002b688                current_bcn
+                0x0002b68c                last_bcn
+ COMMON         0x0002b690        0x4 ./apps/mac80211/soc_obj/MLME_Task.o
+                0x0002b690                mlme_cmd_seq_no
+ COMMON         0x0002b694        0x4 ./apps/mac80211/soc_obj/edca.o
+                0x0002b694                gEDCAInfo
+ COMMON         0x0002b698        0xc ./apps/mac80211/soc_obj/pide_algo.o
+                0x0002b698                probe_pkt
+ COMMON         0x0002b6a4      0x400 ./apps/soc_obj/app_main.o
+                0x0002b6a4                debug_buffer
+ COMMON         0x0002baa4        0x8 ./apps/soc_obj/msgevt.o
+                0x0002baa4                msgevt_addr_end
+                0x0002baa8                msgevt_addr_beg
+ COMMON         0x0002baac       0x3e ./apps/soc_obj/soc_global.o
+                0x0002baac                g_free_msgevt_cnt
+                0x0002bab0                assoc_req_rate
+                0x0002babc                g_soc_table
+                0x0002bac0                gTxFlowDataReason
+                0x0002bac4                g_soc_mib
+                0x0002bae0                gRxFlowMgmtReason
+                0x0002bae2                gTxFlowMgmtReason
+                0x0002bae4                gRxFlowDataReason
+                0x0002bae8                gRxFlowCtrlReason
+ *fill*         0x0002baea        0x2 00
+ COMMON         0x0002baec      0x354 ./apps/soc_obj/soc_log.o
+                0x0002baec                s_prn_tmp
+                0x0002bbec                s_tag_lvl
+                0x0002bbfc                s_prn_buf
+                0x0002bcfc                g_log_out
+                0x0002be04                s_tag_mod
+                0x0002be14                s_tag_fl
+                0x0002be24                g_log_prnf_cfg
+ COMMON         0x0002be40       0x10 ./bsp/soc_obj/bsp.o
+                0x0002be40                g_heap_start
+                0x0002be44                g_heap_size
+                0x0002be48                _g_heap_start
+                0x0002be4c                _g_heap_size
+ COMMON         0x0002be50        0x4 ./bsp/soc_obj/irq.o
+                0x0002be50                xCurrentTick
+ COMMON         0x0002be54       0x20 ./driver/ampdu/soc_obj/drv_ampdu.o
+                0x0002be54                ampdu_tx_retry_count
+ COMMON         0x0002be74        0x4 ./driver/beacon/soc_obj/drv_beacon.o
+                0x0002be74                g_drv_bcn_info
+ COMMON         0x0002be78        0x8 ./driver/hwmac/soc_obj/drv_mac.o
+                0x0002be78                last_tx_rx_time
+ COMMON         0x0002be80       0x50 ./driver/phy/soc_obj/drv_phy.o
+                0x0002be80                firmware_rf_temper_setting
+ COMMON         0x0002bed0        0x4 ./driver/security/soc_obj/drv_security.o
+                0x0002bed0                pGSRAM_KEY
+ COMMON         0x0002bed4      0x578 ./lib/soc_obj/ssv_lib.o
+                0x0002bed4                dp
+                0x0002c3ac                fdq_head
+                0x0002c3cc                tx_dq_head
+                0x0002c42c                rx_dq_head
+ COMMON         0x0002c44c        0x1 ./rtos/soc_obj/rtos.o
+                0x0002c44c                gOsFromISR
+                0x0002c450                . = ALIGN (0x4)
+
+.eh_frame
+ *(.eh_frame)
+                0x0002c450                . = ALIGN (0x4)
+                0x0002c450                . = ALIGN (0x4)
+                0x0002c450                _end = .
+                0x0002c450                _bss_end__ = .
+                0x0002c450                __bss_end__ = .
+                0x0002c450                __end__ = .
+                0x0002c450                PROVIDE (end, .)
+OUTPUT(image/ssv6200-uart.elf elf32-littlearm)
+
+.comment        0x00000000       0xe0
+ .comment       0x00000000       0x70 ./version.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ./apps/mac80211/supplicant/common/soc_obj/wpa_common.o
+ .comment       0x00000000       0x71 ./apps/mac80211/supplicant/common/soc_obj/defs.o
+ .comment       0x00000000       0x71 ./apps/mac80211/supplicant/crypto/soc_obj/aes-internal.o
+ .comment       0x00000000       0x71 ./apps/mac80211/supplicant/crypto/soc_obj/aes-internal-dec.o
+ .comment       0x00000000       0x71 ./apps/mac80211/supplicant/crypto/soc_obj/aes-internal-enc.o
+ .comment       0x00000000       0x71 ./apps/mac80211/supplicant/crypto/soc_obj/aes-unwrap.o
+ .comment       0x00000000       0x71 ./apps/mac80211/supplicant/crypto/soc_obj/crypto_internal.o
+ .comment       0x00000000       0x71 ./apps/mac80211/supplicant/crypto/soc_obj/md5.o
+ .comment       0x00000000       0x71 ./apps/mac80211/supplicant/crypto/soc_obj/md5-internal.o
+ .comment       0x00000000       0x71 ./apps/mac80211/supplicant/crypto/soc_obj/rc4.o
+ .comment       0x00000000       0x71 ./apps/mac80211/supplicant/crypto/soc_obj/sha1.o
+ .comment       0x00000000       0x71 ./apps/mac80211/supplicant/crypto/soc_obj/sha1-internal.o
+ .comment       0x00000000       0x71 ./apps/mac80211/supplicant/crypto/soc_obj/sha1-pbkdf2.o
+ .comment       0x00000000       0x71 ./apps/mac80211/supplicant/drivers/soc_obj/driver_cabrio.o
+ .comment       0x00000000       0x71 ./apps/mac80211/supplicant/rsn_supp/soc_obj/wpa.o
+ .comment       0x00000000       0x71 ./apps/mac80211/supplicant/rsn_supp/soc_obj/wpa_ie.o
+ .comment       0x00000000       0x71 ./apps/mac80211/supplicant/utils/soc_obj/common.o
+ .comment       0x00000000       0x71 ./apps/mac80211/supplicant/utils/soc_obj/eloop_rtos.o
+ .comment       0x00000000       0x71 ./apps/mac80211/supplicant/utils/soc_obj/os_rtos.o
+ .comment       0x00000000       0x71 ./apps/mac80211/supplicant/utils/soc_obj/wpa_debug.o
+ .comment       0x00000000       0x71 ./apps/mac80211/supplicant/soc_obj/events.o
+ .comment       0x00000000       0x71 ./apps/mac80211/supplicant/soc_obj/wpa_supplicant.o
+ .comment       0x00000000       0x71 ./apps/mac80211/supplicant/soc_obj/wpas_glue.o
+ .comment       0x00000000       0x71 ./apps/mac80211/soc_obj/cmd_engine.o
+ .comment       0x00000000       0x71 ./apps/mac80211/soc_obj/soft-main.o
+ .comment       0x00000000       0x71 ./apps/mac80211/soc_obj/sta_info.o
+ .comment       0x00000000       0x71 ./apps/mac80211/soc_obj/util.o
+ .comment       0x00000000       0x71 ./apps/mac80211/soc_obj/SmartConfig.o
+ .comment       0x00000000       0x71 ./apps/mac80211/soc_obj/mlme.o
+ .comment       0x00000000       0x71 ./apps/mac80211/soc_obj/MLME_Task.o
+ .comment       0x00000000       0x71 ./apps/mac80211/soc_obj/MLME_Scan.o
+ .comment       0x00000000       0x71 ./apps/mac80211/soc_obj/MLME_Join.o
+ .comment       0x00000000       0x71 ./apps/mac80211/soc_obj/MLME_Leave.o
+ .comment       0x00000000       0x71 ./apps/mac80211/soc_obj/edca.o
+ .comment       0x00000000       0x71 ./apps/mac80211/soc_obj/MLME_PwrSaving.o
+ .comment       0x00000000       0x71 ./apps/mac80211/soc_obj/edca_queue.o
+ .comment       0x00000000       0x71 ./apps/mac80211/soc_obj/pide_algo.o
+ .comment       0x00000000       0x71 ./apps/mac80211/soc_obj/psk_cache.o
+ .comment       0x00000000       0x71 ./apps/mac80211/soc_obj/ssv_pkt.o
+ .comment       0x00000000       0x71 ./apps/soc_obj/app_main.o
+ .comment       0x00000000       0x71 ./apps/soc_obj/msgevt.o
+ .comment       0x00000000       0x71 ./apps/soc_obj/pbuf.o
+ .comment       0x00000000       0x71 ./apps/soc_obj/soc_global.o
+ .comment       0x00000000       0x71 ./apps/soc_obj/soc_log.o
+ .comment       0x00000000       0x71 ./bsp/soc_obj/bsp.o
+ .comment       0x00000000       0x71 ./bsp/soc_obj/cpu.o
+ .comment       0x00000000       0x71 ./bsp/soc_obj/irq.o
+ .comment       0x00000000       0x71 ./bsp/soc_obj/serial.o
+ .comment       0x00000000       0x71 ./cli/cmds/soc_obj/cli_cmd.o
+ .comment       0x00000000       0x71 ./cli/cmds/soc_obj/cli_cmd_monitor.o
+ .comment       0x00000000       0x71 ./cli/soc_obj/cli.o
+ .comment       0x00000000       0x71 ./driver/ampdu/soc_obj/drv_ampdu.o
+ .comment       0x00000000       0x71 ./driver/beacon/soc_obj/drv_beacon.o
+ .comment       0x00000000       0x71 ./driver/dbg_timer/soc_obj/dbg_timer.o
+ .comment       0x00000000       0x71 ./driver/edca/soc_obj/drv_edca.o
+ .comment       0x00000000       0x71 ./driver/hwmac/soc_obj/drv_mac.o
+ .comment       0x00000000       0x71 ./driver/idmanage/soc_obj/drv_idmanage.o
+ .comment       0x00000000       0x71 ./driver/mbox/soc_obj/drv_mbox.o
+ .comment       0x00000000       0x71 ./driver/nav/soc_obj/drv_nav.o
+ .comment       0x00000000       0x71 ./driver/phy/soc_obj/drv_phy.o
+ .comment       0x00000000       0x71 ./driver/pmu/soc_obj/drv_pmu.o
+ .comment       0x00000000       0x71 ./driver/random/soc_obj/drv_random.o
+ .comment       0x00000000       0x71 ./driver/rtc/soc_obj/drv_rtc.o
+ .comment       0x00000000       0x71 ./driver/security/soc_obj/drv_security.o
+ .comment       0x00000000       0x71 ./driver/timer/soc_obj/drv_timer.o
+ .comment       0x00000000       0x71 ./driver/uart/soc_obj/drv_uart.o
+ .comment       0x00000000       0x71 ./lib/soc_obj/ssv_lib.o
+ .comment       0x00000000       0x71 ./lib/soc_obj/lib-impl.o
+ .comment       0x00000000       0x71 ./rtos/FreeRTOS/Source/portable/GCC/SSV6200/soc_obj/port.o
+ .comment       0x00000000       0x71 ./rtos/FreeRTOS/Source/portable/GCC/SSV6200/soc_obj/portISR.o
+ .comment       0x00000000       0x71 ./rtos/FreeRTOS/Source/portable/MemMang/soc_obj/heap_3.o
+ .comment       0x00000000       0x71 ./rtos/FreeRTOS/Source/soc_obj/croutine.o
+ .comment       0x00000000       0x71 ./rtos/FreeRTOS/Source/soc_obj/list.o
+ .comment       0x00000000       0x71 ./rtos/FreeRTOS/Source/soc_obj/queue.o
+ .comment       0x00000000       0x71 ./rtos/FreeRTOS/Source/soc_obj/tasks.o
+ .comment       0x00000000       0x71 ./rtos/FreeRTOS/Source/soc_obj/timers.o
+ .comment       0x00000000       0x71 ./rtos/FreeRTOS/soc_obj/rtos_glue.o
+ .comment       0x00000000       0x71 ./rtos/soc_obj/rtos.o
+ .comment       0x00000070       0x70 /mnt/hgfs/svn_code/new/firmware/104x/smartcfg/libairkiss.a(airkiss.o)
+                                 0x71 (size before relaxing)
+
+.ARM.attributes
+                0x00000000       0x2e
+ .ARM.attributes
+                0x00000000       0x2a ./version.o
+ .ARM.attributes
+                0x0000002a       0x2a ./apps/mac80211/supplicant/common/soc_obj/wpa_common.o
+ .ARM.attributes
+                0x00000054       0x2a ./apps/mac80211/supplicant/common/soc_obj/defs.o
+ .ARM.attributes
+                0x0000007e       0x2a ./apps/mac80211/supplicant/crypto/soc_obj/aes-internal.o
+ .ARM.attributes
+                0x000000a8       0x2a ./apps/mac80211/supplicant/crypto/soc_obj/aes-internal-dec.o
+ .ARM.attributes
+                0x000000d2       0x2a ./apps/mac80211/supplicant/crypto/soc_obj/aes-internal-enc.o
+ .ARM.attributes
+                0x000000fc       0x2a ./apps/mac80211/supplicant/crypto/soc_obj/aes-unwrap.o
+ .ARM.attributes
+                0x00000126       0x2a ./apps/mac80211/supplicant/crypto/soc_obj/crypto_internal.o
+ .ARM.attributes
+                0x00000150       0x2a ./apps/mac80211/supplicant/crypto/soc_obj/md5.o
+ .ARM.attributes
+                0x0000017a       0x2a ./apps/mac80211/supplicant/crypto/soc_obj/md5-internal.o
+ .ARM.attributes
+                0x000001a4       0x2a ./apps/mac80211/supplicant/crypto/soc_obj/rc4.o
+ .ARM.attributes
+                0x000001ce       0x2a ./apps/mac80211/supplicant/crypto/soc_obj/sha1.o
+ .ARM.attributes
+                0x000001f8       0x2a ./apps/mac80211/supplicant/crypto/soc_obj/sha1-internal.o
+ .ARM.attributes
+                0x00000222       0x2a ./apps/mac80211/supplicant/crypto/soc_obj/sha1-pbkdf2.o
+ .ARM.attributes
+                0x0000024c       0x2a ./apps/mac80211/supplicant/drivers/soc_obj/driver_cabrio.o
+ .ARM.attributes
+                0x00000276       0x2a ./apps/mac80211/supplicant/rsn_supp/soc_obj/wpa.o
+ .ARM.attributes
+                0x000002a0       0x2a ./apps/mac80211/supplicant/rsn_supp/soc_obj/wpa_ie.o
+ .ARM.attributes
+                0x000002ca       0x2a ./apps/mac80211/supplicant/utils/soc_obj/common.o
+ .ARM.attributes
+                0x000002f4       0x2a ./apps/mac80211/supplicant/utils/soc_obj/eloop_rtos.o
+ .ARM.attributes
+                0x0000031e       0x2a ./apps/mac80211/supplicant/utils/soc_obj/os_rtos.o
+ .ARM.attributes
+                0x00000348       0x2a ./apps/mac80211/supplicant/utils/soc_obj/wpa_debug.o
+ .ARM.attributes
+                0x00000372       0x2a ./apps/mac80211/supplicant/soc_obj/events.o
+ .ARM.attributes
+                0x0000039c       0x2a ./apps/mac80211/supplicant/soc_obj/wpa_supplicant.o
+ .ARM.attributes
+                0x000003c6       0x2a ./apps/mac80211/supplicant/soc_obj/wpas_glue.o
+ .ARM.attributes
+                0x000003f0       0x2a ./apps/mac80211/soc_obj/cmd_engine.o
+ .ARM.attributes
+                0x0000041a       0x2a ./apps/mac80211/soc_obj/soft-main.o
+ .ARM.attributes
+                0x00000444       0x2a ./apps/mac80211/soc_obj/sta_info.o
+ .ARM.attributes
+                0x0000046e       0x2a ./apps/mac80211/soc_obj/util.o
+ .ARM.attributes
+                0x00000498       0x2a ./apps/mac80211/soc_obj/SmartConfig.o
+ .ARM.attributes
+                0x000004c2       0x2a ./apps/mac80211/soc_obj/mlme.o
+ .ARM.attributes
+                0x000004ec       0x2a ./apps/mac80211/soc_obj/MLME_Task.o
+ .ARM.attributes
+                0x00000516       0x2a ./apps/mac80211/soc_obj/MLME_Scan.o
+ .ARM.attributes
+                0x00000540       0x2a ./apps/mac80211/soc_obj/MLME_Join.o
+ .ARM.attributes
+                0x0000056a       0x2a ./apps/mac80211/soc_obj/MLME_Leave.o
+ .ARM.attributes
+                0x00000594       0x2a ./apps/mac80211/soc_obj/edca.o
+ .ARM.attributes
+                0x000005be       0x2a ./apps/mac80211/soc_obj/MLME_PwrSaving.o
+ .ARM.attributes
+                0x000005e8       0x2a ./apps/mac80211/soc_obj/edca_queue.o
+ .ARM.attributes
+                0x00000612       0x2a ./apps/mac80211/soc_obj/pide_algo.o
+ .ARM.attributes
+                0x0000063c       0x2a ./apps/mac80211/soc_obj/psk_cache.o
+ .ARM.attributes
+                0x00000666       0x2a ./apps/mac80211/soc_obj/ssv_pkt.o
+ .ARM.attributes
+                0x00000690       0x2a ./apps/soc_obj/app_main.o
+ .ARM.attributes
+                0x000006ba       0x2a ./apps/soc_obj/msgevt.o
+ .ARM.attributes
+                0x000006e4       0x2a ./apps/soc_obj/pbuf.o
+ .ARM.attributes
+                0x0000070e       0x2a ./apps/soc_obj/soc_global.o
+ .ARM.attributes
+                0x00000738       0x2a ./apps/soc_obj/soc_log.o
+ .ARM.attributes
+                0x00000762       0x14 ./bsp/soc_obj/boot.o
+ .ARM.attributes
+                0x00000776       0x2a ./bsp/soc_obj/bsp.o
+ .ARM.attributes
+                0x000007a0       0x2a ./bsp/soc_obj/cpu.o
+ .ARM.attributes
+                0x000007ca       0x2a ./bsp/soc_obj/irq.o
+ .ARM.attributes
+                0x000007f4       0x2a ./bsp/soc_obj/serial.o
+ .ARM.attributes
+                0x0000081e       0x2a ./cli/cmds/soc_obj/cli_cmd.o
+ .ARM.attributes
+                0x00000848       0x2a ./cli/cmds/soc_obj/cli_cmd_monitor.o
+ .ARM.attributes
+                0x00000872       0x2a ./cli/soc_obj/cli.o
+ .ARM.attributes
+                0x0000089c       0x2a ./driver/ampdu/soc_obj/drv_ampdu.o
+ .ARM.attributes
+                0x000008c6       0x2a ./driver/beacon/soc_obj/drv_beacon.o
+ .ARM.attributes
+                0x000008f0       0x2a ./driver/dbg_timer/soc_obj/dbg_timer.o
+ .ARM.attributes
+                0x0000091a       0x2a ./driver/edca/soc_obj/drv_edca.o
+ .ARM.attributes
+                0x00000944       0x2a ./driver/hwmac/soc_obj/drv_mac.o
+ .ARM.attributes
+                0x0000096e       0x2a ./driver/idmanage/soc_obj/drv_idmanage.o
+ .ARM.attributes
+                0x00000998       0x2a ./driver/mbox/soc_obj/drv_mbox.o
+ .ARM.attributes
+                0x000009c2       0x2a ./driver/nav/soc_obj/drv_nav.o
+ .ARM.attributes
+                0x000009ec       0x2a ./driver/phy/soc_obj/drv_phy.o
+ .ARM.attributes
+                0x00000a16       0x2a ./driver/pmu/soc_obj/drv_pmu.o
+ .ARM.attributes
+                0x00000a40       0x2a ./driver/random/soc_obj/drv_random.o
+ .ARM.attributes
+                0x00000a6a       0x2a ./driver/rtc/soc_obj/drv_rtc.o
+ .ARM.attributes
+                0x00000a94       0x2a ./driver/security/soc_obj/drv_security.o
+ .ARM.attributes
+                0x00000abe       0x2a ./driver/timer/soc_obj/drv_timer.o
+ .ARM.attributes
+                0x00000ae8       0x2a ./driver/uart/soc_obj/drv_uart.o
+ .ARM.attributes
+                0x00000b12       0x2a ./lib/soc_obj/ssv_lib.o
+ .ARM.attributes
+                0x00000b3c       0x2a ./lib/soc_obj/lib-impl.o
+ .ARM.attributes
+                0x00000b66       0x2a ./rtos/FreeRTOS/Source/portable/GCC/SSV6200/soc_obj/port.o
+ .ARM.attributes
+                0x00000b90       0x2a ./rtos/FreeRTOS/Source/portable/GCC/SSV6200/soc_obj/portISR.o
+ .ARM.attributes
+                0x00000bba       0x2a ./rtos/FreeRTOS/Source/portable/MemMang/soc_obj/heap_3.o
+ .ARM.attributes
+                0x00000be4       0x2a ./rtos/FreeRTOS/Source/soc_obj/croutine.o
+ .ARM.attributes
+                0x00000c0e       0x2a ./rtos/FreeRTOS/Source/soc_obj/list.o
+ .ARM.attributes
+                0x00000c38       0x2a ./rtos/FreeRTOS/Source/soc_obj/queue.o
+ .ARM.attributes
+                0x00000c62       0x2a ./rtos/FreeRTOS/Source/soc_obj/tasks.o
+ .ARM.attributes
+                0x00000c8c       0x2a ./rtos/FreeRTOS/Source/soc_obj/timers.o
+ .ARM.attributes
+                0x00000cb6       0x2a ./rtos/FreeRTOS/soc_obj/rtos_glue.o
+ .ARM.attributes
+                0x00000ce0       0x2a ./rtos/soc_obj/rtos.o
+ .ARM.attributes
+                0x00000d0a       0x30 /mnt/hgfs/svn_code/new/firmware/104x/smartcfg/libairkiss.a(airkiss.o)
+ .ARM.attributes
+                0x00000d3a       0x18 /opt/toolchain/gcc-arm-none-eabi-4_6-2012q1/bin/../lib/gcc/arm-none-eabi/4.6.2/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00000d52       0x18 /opt/toolchain/gcc-arm-none-eabi-4_6-2012q1/bin/../lib/gcc/arm-none-eabi/4.6.2/libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x00000d6a       0x16 /opt/toolchain/gcc-arm-none-eabi-4_6-2012q1/bin/../lib/gcc/arm-none-eabi/4.6.2/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000d80       0x18 /opt/toolchain/gcc-arm-none-eabi-4_6-2012q1/bin/../lib/gcc/arm-none-eabi/4.6.2/libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x00000d98       0x18 /opt/toolchain/gcc-arm-none-eabi-4_6-2012q1/bin/../lib/gcc/arm-none-eabi/4.6.2/libgcc.a(_arm_muldivdf3.o)
+ .ARM.attributes
+                0x00000db0       0x18 /opt/toolchain/gcc-arm-none-eabi-4_6-2012q1/bin/../lib/gcc/arm-none-eabi/4.6.2/libgcc.a(_arm_fixunsdfsi.o)
+ .ARM.attributes
+                0x00000dc8       0x30 /opt/toolchain/gcc-arm-none-eabi-4_6-2012q1/bin/../lib/gcc/arm-none-eabi/4.6.2/libgcc.a(_muldi3.o)
+
+.debug_frame    0x00000000       0x68
+ .debug_frame   0x00000000       0x20 /opt/toolchain/gcc-arm-none-eabi-4_6-2012q1/bin/../lib/gcc/arm-none-eabi/4.6.2/libgcc.a(_udivsi3.o)
+ .debug_frame   0x00000020       0x20 /opt/toolchain/gcc-arm-none-eabi-4_6-2012q1/bin/../lib/gcc/arm-none-eabi/4.6.2/libgcc.a(_divsi3.o)
+ .debug_frame   0x00000040       0x28 /opt/toolchain/gcc-arm-none-eabi-4_6-2012q1/bin/../lib/gcc/arm-none-eabi/4.6.2/libgcc.a(_muldi3.o)
